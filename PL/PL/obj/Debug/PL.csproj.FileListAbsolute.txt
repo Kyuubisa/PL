@@ -1,0 +1,387 @@
+D:\VS Projects\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\PL.dll
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\PL.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\PL.PL.apk
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\PL.PL-Signed.apk
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\PL.csproj.CoreCompileInputs.cache
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\PL.dll
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\PL.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\android\bin\PL.PL.apk
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\res\layout\main.xml
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\res\values\strings.xml
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\R.cs.flag
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\uploadflags.txt
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\res\drawable\cpp.png
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\Xamarin.Android.Support.Annotations.dll
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\Xamarin.Android.Support.Compat.dll
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\Xamarin.Android.Support.Fragment.dll
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\PL.csproj.CopyComplete
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\Mono.Android.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\mscorlib.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\System.Core.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\System.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\System.Xml.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\System.Net.Http.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\System.Runtime.Serialization.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\System.ServiceModel.Internals.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\Mono.Security.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\System.ComponentModel.Composition.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\linksrc\Mono.Android.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\linksrc\mscorlib.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\linksrc\System.Core.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\linksrc\System.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\linksrc\System.Xml.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\linksrc\System.Net.Http.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\linksrc\System.Runtime.Serialization.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\linksrc\Mono.Security.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\linksrc\System.ComponentModel.Composition.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\linksrc\PL.dll.mdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\bin\Debug\PL.dll.mdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\android\assets\PL.dll.mdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\android\assets\Mono.Android.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\android\assets\Mono.Security.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\android\assets\mscorlib.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\android\assets\System.ComponentModel.Composition.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\android\assets\System.Core.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\android\assets\System.Net.Http.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\android\assets\System.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\android\assets\System.Runtime.Serialization.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\android\assets\System.Xml.pdb
+D:\Programs\Visual Studio 2017\_VSProject\PL\PL\obj\Debug\res\drawable\csharp.png
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\PL.dll
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\PL.pdb
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\PL.PL.apk
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\PL.PL-Signed.apk
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Annotations.dll
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Compat.dll
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Fragment.dll
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\PL.csproj.CoreCompileInputs.cache
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\PL.csproj.CopyComplete
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\PL.dll
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\PL.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\bin\PL.PL.apk
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\main.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\values\strings.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\cpp.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\csharp.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\R.cs.flag
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\uploadflags.txt
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\cardviewlanguage.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\css.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\html.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\java.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\javascript.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\php.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\python.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\ruby.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\sql.png
+E:\Reposit\-\PL\PL\bin\Debug\PL.dll
+E:\Reposit\-\PL\PL\bin\Debug\PL.pdb
+E:\Reposit\-\PL\PL\bin\Debug\PL.PL.apk
+E:\Reposit\-\PL\PL\bin\Debug\PL.PL-Signed.apk
+E:\Reposit\-\PL\PL\bin\Debug\WaveLoadingView.dll
+E:\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+E:\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Annotations.dll
+E:\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Compat.dll
+E:\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+E:\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+E:\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Fragment.dll
+E:\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+E:\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+E:\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+E:\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+E:\Reposit\-\PL\PL\obj\Debug\PL.csproj.CoreCompileInputs.cache
+E:\Reposit\-\PL\PL\obj\Debug\PL.dll
+E:\Reposit\-\PL\PL\obj\Debug\PL.pdb
+E:\Reposit\-\PL\PL\obj\Debug\android\bin\PL.PL.apk
+E:\Reposit\-\PL\PL\obj\Debug\res\layout\cardviewlanguage.xml
+E:\Reposit\-\PL\PL\obj\Debug\res\layout\main.xml
+E:\Reposit\-\PL\PL\obj\Debug\res\values\strings.xml
+E:\Reposit\-\PL\PL\obj\Debug\res\drawable\cpp.png
+E:\Reposit\-\PL\PL\obj\Debug\res\drawable\csharp.png
+E:\Reposit\-\PL\PL\obj\Debug\res\drawable\css.png
+E:\Reposit\-\PL\PL\obj\Debug\res\drawable\html.png
+E:\Reposit\-\PL\PL\obj\Debug\res\drawable\java.png
+E:\Reposit\-\PL\PL\obj\Debug\res\drawable\javascript.png
+E:\Reposit\-\PL\PL\obj\Debug\res\drawable\php.png
+E:\Reposit\-\PL\PL\obj\Debug\res\drawable\python.png
+E:\Reposit\-\PL\PL\obj\Debug\res\drawable\ruby.png
+E:\Reposit\-\PL\PL\obj\Debug\res\drawable\sql.png
+E:\Reposit\-\PL\PL\obj\Debug\R.cs.flag
+E:\Reposit\-\PL\PL\obj\Debug\uploadflags.txt
+E:\Reposit\-\PL\PL\obj\Debug\res\values\color.xml
+E:\Reposit\-\PL\PL\bin\Debug\PL.dll.mdb
+E:\Reposit\-\PL\PL\obj\Debug\android\assets\PL.dll.mdb
+E:\Reposit\-\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\WaveLoadingView.dll
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\values\color.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\loading.xml
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Design.dll
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Transition.dll
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\toolbar.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\values\styles.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\menu\nav_menu.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\nav_header.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\add_50.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\cpp_50.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\csharp_50.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\css_50.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\html_50.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\java_50.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\javascript_50.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\php_50.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\python_50.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\ruby_50.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\sql_50.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\logo.png
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Mono.Android.pdb
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\mscorlib.pdb
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\System.Core.pdb
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\System.pdb
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\System.Xml.pdb
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\System.Net.Http.pdb
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\System.Runtime.Serialization.pdb
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\System.ServiceModel.Internals.pdb
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\Mono.Security.pdb
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\System.ComponentModel.Composition.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\Mono.Android.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\mscorlib.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\System.Core.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\System.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\System.Xml.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\System.Net.Http.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\System.Runtime.Serialization.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\Mono.Security.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\System.ComponentModel.Composition.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\PL.dll.mdb
+D:\Programs\Reposit\PL\PL\PL\bin\Debug\PL.dll.mdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\PL.dll.mdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\Mono.Android.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\Mono.Security.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\mscorlib.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.ComponentModel.Composition.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.Core.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.Net.Http.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.Runtime.Serialization.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.Xml.pdb
+E:\Git hub\-\PL\PL\obj\Debug\PL.dll
+E:\Git hub\-\PL\PL\obj\Debug\PL.pdb
+E:\Git hub\-\PL\PL\bin\Debug\PL.dll
+E:\Git hub\-\PL\PL\bin\Debug\PL.pdb
+E:\Git hub\-\PL\PL\bin\Debug\PL.PL.apk
+E:\Git hub\-\PL\PL\bin\Debug\PL.PL-Signed.apk
+E:\Git hub\-\PL\PL\bin\Debug\WaveLoadingView.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.Annotations.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.Compat.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.Design.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.Fragment.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.Transition.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+E:\Git hub\-\PL\PL\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+E:\Git hub\-\PL\PL\obj\Debug\PL.csproj.CoreCompileInputs.cache
+E:\Git hub\-\PL\PL\obj\Debug\android\bin\PL.PL.apk
+E:\Git hub\-\PL\PL\obj\Debug\res\layout\cardviewlanguage.xml
+E:\Git hub\-\PL\PL\obj\Debug\res\layout\loading.xml
+E:\Git hub\-\PL\PL\obj\Debug\res\layout\toolbar.xml
+E:\Git hub\-\PL\PL\obj\Debug\res\layout\nav_header.xml
+E:\Git hub\-\PL\PL\obj\Debug\res\layout\main.xml
+E:\Git hub\-\PL\PL\obj\Debug\res\values\strings.xml
+E:\Git hub\-\PL\PL\obj\Debug\res\values\color.xml
+E:\Git hub\-\PL\PL\obj\Debug\res\values\styles.xml
+E:\Git hub\-\PL\PL\obj\Debug\res\menu\nav_menu.xml
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\cpp.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\cpp_50.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\csharp.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\csharp_50.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\css.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\css_50.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\html.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\html_50.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\java.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\java_50.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\javascript.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\javascript_50.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\php.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\php_50.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\python.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\python_50.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\ruby.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\ruby_50.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\sql.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\sql_50.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\add_50.png
+E:\Git hub\-\PL\PL\obj\Debug\res\drawable\logo.png
+E:\Git hub\-\PL\PL\obj\Debug\R.cs.flag
+E:\Git hub\-\PL\PL\obj\Debug\uploadflags.txt
+E:\Git hub\-\PL\PL\bin\Debug\BottomNavigationBar.dll
+E:\Git hub\-\PL\PL\bin\Debug\Newtonsoft.Json.dll
+E:\Git hub\-\PL\PL\bin\Debug\BottomNavigationBar.pdb
+E:\Git hub\-\PL\PL\bin\Debug\BottomNavigationBar.xml
+E:\Git hub\-\PL\PL\bin\Debug\Newtonsoft.Json.xml
+E:\Git hub\-\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+E:\Git hub\-\PL\PL\obj\Debug\res\menu\bottombar_menu.xml
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-hdpi\ic_favorites.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-hdpi\ic_friends.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-hdpi\ic_nearby.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-hdpi\ic_recents.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-hdpi\ic_restaurants.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-mdpi\ic_favorites.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-mdpi\ic_friends.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-mdpi\ic_nearby.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-mdpi\ic_recents.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-mdpi\ic_restaurants.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xhdpi\ic_favorites.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xhdpi\ic_friends.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xhdpi\ic_nearby.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xhdpi\ic_recents.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xhdpi\ic_restaurants.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xxhdpi\ic_favorites.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xxhdpi\ic_friends.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xxhdpi\ic_nearby.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xxhdpi\ic_recents.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xxhdpi\ic_restaurants.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xxxhdpi\ic_nearby.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xxxhdpi\ic_recents.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xxxhdpi\ic_restaurants.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xxxhdpi\ic_favorites.png
+E:\Git hub\-\PL\PL\obj\Debug\res\mipmap-xxxhdpi\ic_friends.png
+E:\Git hub\-\PL\PL\bin\Debug\BottomNavigationBar.dll.mdb
+E:\Git hub\-\PL\PL\bin\Debug\PL.dll.mdb
+E:\Git hub\-\PL\PL\obj\Debug\android\assets\BottomNavigationBar.dll.mdb
+E:\Git hub\-\PL\PL\obj\Debug\android\assets\PL.dll.mdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\PL.dll
+D:\Programs\Reposit\-\PL\PL\obj\Debug\PL.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\PL.csproj.CoreCompileInputs.cache
+D:\Programs\Reposit\-\PL\PL\bin\Debug\PL.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\PL.pdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\PL.PL.apk
+D:\Programs\Reposit\-\PL\PL\bin\Debug\PL.PL-Signed.apk
+D:\Programs\Reposit\-\PL\PL\bin\Debug\WaveLoadingView.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Annotations.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Compat.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Design.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Fragment.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Transition.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+D:\Programs\Reposit\-\PL\PL\obj\Debug\PL.csproj.CopyComplete
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\bin\PL.PL.apk
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\layout\cardviewlanguage.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\layout\loading.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\layout\toolbar.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\layout\nav_header.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\layout\main.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\values\strings.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\values\color.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\values\styles.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\menu\nav_menu.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\cpp.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\cpp_50.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\csharp.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\csharp_50.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\css.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\css_50.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\html.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\html_50.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\java.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\java_50.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\javascript.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\javascript_50.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\php.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\php_50.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\python.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\python_50.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\ruby.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\ruby_50.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\sql.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\sql_50.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\add_50.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\logo.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\R.cs.flag
+D:\Programs\Reposit\-\PL\PL\obj\Debug\uploadflags.txt
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Newtonsoft.Json.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Xamarin.Android.Support.v4.dll
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Newtonsoft.Json.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\menu\navigation_menu.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\ic_settings.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\ic_video.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\drawable\ic_lbooks.png
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\layout\fragment_books.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\layout\fragment_video.xml
+D:\Programs\Reposit\-\PL\PL\obj\Debug\res\layout\fragment_settings.xml
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Mono.Android.pdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\mscorlib.pdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\System.Core.pdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\System.pdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\System.Xml.pdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\System.Net.Http.pdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\System.Runtime.Serialization.pdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\System.ServiceModel.Internals.pdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\System.Xml.Linq.pdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Microsoft.CSharp.pdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\Mono.Security.pdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\System.ComponentModel.Composition.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\Mono.Android.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\mscorlib.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\System.Core.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\System.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\System.Xml.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\System.Net.Http.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\System.Runtime.Serialization.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\System.Xml.Linq.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\Microsoft.CSharp.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\Mono.Security.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\System.ComponentModel.Composition.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\PL.dll.mdb
+D:\Programs\Reposit\-\PL\PL\bin\Debug\PL.dll.mdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\PL.dll.mdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\Microsoft.CSharp.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\Mono.Android.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\Mono.Security.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\mscorlib.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\System.ComponentModel.Composition.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\System.Core.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\System.Net.Http.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\System.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\System.Runtime.Serialization.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\System.Xml.Linq.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\android\assets\System.Xml.pdb
+D:\Programs\Reposit\-\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+D:\Programs\Reposit\-\PL\PL\bin\Debug\PL.dll
+D:\Programs\Reposit\-\PL\PL\obj\Debug\linksrc\PL.dll.mdb
