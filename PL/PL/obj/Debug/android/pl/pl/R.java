@@ -3086,9 +3086,10 @@ containing a value of this type.
         public static final int appbar=0x7f0700b3;
         public static final int auto=0x7f07002f;
         public static final int beginning=0x7f070020;
-        public static final int books=0x7f0700c3;
+        public static final int books=0x7f0700b8;
         public static final int bottom=0x7f070028;
         public static final int bottomNavigation=0x7f070099;
+        public static final int bottom_menu=0x7f0700b7;
         public static final int buttonPanel=0x7f070053;
         public static final int cancel_action=0x7f07009f;
         public static final int card_view_cpp=0x7f07007c;
@@ -3158,21 +3159,20 @@ containing a value of this type.
         public static final int middle=0x7f070022;
         public static final int mini=0x7f07003e;
         public static final int multiply=0x7f070019;
-        public static final int nav_add=0x7f0700c1;
-        public static final int nav_cpp=0x7f0700b7;
-        public static final int nav_csharp=0x7f0700b8;
-        public static final int nav_css=0x7f0700be;
-        public static final int nav_html=0x7f0700bd;
-        public static final int nav_java=0x7f0700b9;
-        public static final int nav_javascript=0x7f0700bc;
-        public static final int nav_php=0x7f0700bf;
-        public static final int nav_python=0x7f0700ba;
-        public static final int nav_ruby=0x7f0700bb;
-        public static final int nav_sql=0x7f0700c0;
+        public static final int nav_add=0x7f0700c5;
+        public static final int nav_cpp=0x7f0700bb;
+        public static final int nav_csharp=0x7f0700bc;
+        public static final int nav_css=0x7f0700c2;
+        public static final int nav_html=0x7f0700c1;
+        public static final int nav_java=0x7f0700bd;
+        public static final int nav_javascript=0x7f0700c0;
+        public static final int nav_php=0x7f0700c3;
+        public static final int nav_python=0x7f0700be;
+        public static final int nav_ruby=0x7f0700bf;
+        public static final int nav_sql=0x7f0700c4;
         public static final int nav_view=0x7f070097;
         public static final int navheader_username=0x7f07009a;
         public static final int navigation_header_container=0x7f07008e;
-        public static final int navigation_menu=0x7f0700c2;
         public static final int never=0x7f070026;
         public static final int none=0x7f070014;
         public static final int normal=0x7f070010;
@@ -3208,7 +3208,7 @@ containing a value of this type.
         public static final int search_voice_btn=0x7f070079;
         public static final int seekbar=0x7f070095;
         public static final int select_dialog_listview=0x7f07007a;
-        public static final int settings=0x7f0700c5;
+        public static final int settings=0x7f0700ba;
         public static final int shortcut=0x7f070064;
         public static final int showCustom=0x7f070015;
         public static final int showHome=0x7f070016;
@@ -3249,7 +3249,7 @@ containing a value of this type.
         public static final int triangle=0x7f070044;
         public static final int up=0x7f070009;
         public static final int useLogo=0x7f070018;
-        public static final int video=0x7f0700c4;
+        public static final int video=0x7f0700b9;
         public static final int view_offset_helper=0x7f07000e;
         public static final int visible=0x7f0700b5;
         public static final int waveLoadingView=0x7f070094;
@@ -3339,8 +3339,8 @@ containing a value of this type.
         public static final int toolbar=0x7f030043;
     }
     public static final class menu {
-        public static final int nav_menu=0x7f0d0000;
-        public static final int navigation_menu=0x7f0d0001;
+        public static final int bottom_menu=0x7f0d0000;
+        public static final int nav_menu=0x7f0d0001;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0a0000;

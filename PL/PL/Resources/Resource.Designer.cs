@@ -2474,14 +2474,17 @@ namespace PL
 			// aapt resource value: 0x7f070020
 			public const int beginning = 2131165216;
 			
-			// aapt resource value: 0x7f0700c3
-			public const int books = 2131165379;
+			// aapt resource value: 0x7f0700b8
+			public const int books = 2131165368;
 			
 			// aapt resource value: 0x7f070028
 			public const int bottom = 2131165224;
 			
 			// aapt resource value: 0x7f070099
 			public const int bottomNavigation = 2131165337;
+			
+			// aapt resource value: 0x7f0700b7
+			public const int bottom_menu = 2131165367;
 			
 			// aapt resource value: 0x7f070053
 			public const int buttonPanel = 2131165267;
@@ -2690,38 +2693,38 @@ namespace PL
 			// aapt resource value: 0x7f070019
 			public const int multiply = 2131165209;
 			
-			// aapt resource value: 0x7f0700c1
-			public const int nav_add = 2131165377;
-			
-			// aapt resource value: 0x7f0700b7
-			public const int nav_cpp = 2131165367;
-			
-			// aapt resource value: 0x7f0700b8
-			public const int nav_csharp = 2131165368;
-			
-			// aapt resource value: 0x7f0700be
-			public const int nav_css = 2131165374;
-			
-			// aapt resource value: 0x7f0700bd
-			public const int nav_html = 2131165373;
-			
-			// aapt resource value: 0x7f0700b9
-			public const int nav_java = 2131165369;
-			
-			// aapt resource value: 0x7f0700bc
-			public const int nav_javascript = 2131165372;
-			
-			// aapt resource value: 0x7f0700bf
-			public const int nav_php = 2131165375;
-			
-			// aapt resource value: 0x7f0700ba
-			public const int nav_python = 2131165370;
+			// aapt resource value: 0x7f0700c5
+			public const int nav_add = 2131165381;
 			
 			// aapt resource value: 0x7f0700bb
-			public const int nav_ruby = 2131165371;
+			public const int nav_cpp = 2131165371;
+			
+			// aapt resource value: 0x7f0700bc
+			public const int nav_csharp = 2131165372;
+			
+			// aapt resource value: 0x7f0700c2
+			public const int nav_css = 2131165378;
+			
+			// aapt resource value: 0x7f0700c1
+			public const int nav_html = 2131165377;
+			
+			// aapt resource value: 0x7f0700bd
+			public const int nav_java = 2131165373;
 			
 			// aapt resource value: 0x7f0700c0
-			public const int nav_sql = 2131165376;
+			public const int nav_javascript = 2131165376;
+			
+			// aapt resource value: 0x7f0700c3
+			public const int nav_php = 2131165379;
+			
+			// aapt resource value: 0x7f0700be
+			public const int nav_python = 2131165374;
+			
+			// aapt resource value: 0x7f0700bf
+			public const int nav_ruby = 2131165375;
+			
+			// aapt resource value: 0x7f0700c4
+			public const int nav_sql = 2131165380;
 			
 			// aapt resource value: 0x7f070097
 			public const int nav_view = 2131165335;
@@ -2731,9 +2734,6 @@ namespace PL
 			
 			// aapt resource value: 0x7f07008e
 			public const int navigation_header_container = 2131165326;
-			
-			// aapt resource value: 0x7f0700c2
-			public const int navigation_menu = 2131165378;
 			
 			// aapt resource value: 0x7f070026
 			public const int never = 2131165222;
@@ -2840,8 +2840,8 @@ namespace PL
 			// aapt resource value: 0x7f07007a
 			public const int select_dialog_listview = 2131165306;
 			
-			// aapt resource value: 0x7f0700c5
-			public const int settings = 2131165381;
+			// aapt resource value: 0x7f0700ba
+			public const int settings = 2131165370;
 			
 			// aapt resource value: 0x7f070064
 			public const int shortcut = 2131165284;
@@ -2963,8 +2963,8 @@ namespace PL
 			// aapt resource value: 0x7f070018
 			public const int useLogo = 2131165208;
 			
-			// aapt resource value: 0x7f0700c4
-			public const int video = 2131165380;
+			// aapt resource value: 0x7f0700b9
+			public const int video = 2131165369;
 			
 			// aapt resource value: 0x7f07000e
 			public const int view_offset_helper = 2131165198;
@@ -3255,10 +3255,10 @@ namespace PL
 		{
 			
 			// aapt resource value: 0x7f0d0000
-			public const int nav_menu = 2131558400;
+			public const int bottom_menu = 2131558400;
 			
 			// aapt resource value: 0x7f0d0001
-			public const int navigation_menu = 2131558401;
+			public const int nav_menu = 2131558401;
 			
 			static Menu()
 			{

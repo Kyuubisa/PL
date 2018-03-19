@@ -35,7 +35,7 @@
           android:id="@+id/bottomNavigation"
           android:background="?android:windowBackground"
           android:layout_gravity="bottom"
-          app:menu="@menu/navigation_menu"
+          app:menu="@menu/bottom_menu"
           android:theme="@style/BottomNavigationTheme" />
     </android.support.design.widget.CoordinatorLayout>
   </android.support.v4.widget.DrawerLayout>

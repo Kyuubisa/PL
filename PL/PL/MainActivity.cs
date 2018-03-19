@@ -26,74 +26,63 @@ namespace PL
     {
         DrawerLayout drawerLayout;
         NavigationView navigationView;
+        BottomNavigationView bottomNavigation;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Main);
             RequestedOrientation = ScreenOrientation.Portrait;
-            //drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
-            // Create ActionBarDrawerToggle button and add it to the toolbar  
+            drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
-            //SetSupportActionBar(toolbar);
+            SetSupportActionBar(toolbar);
             var drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, Resource.String.drawer_open, Resource.String.drawer_close);
-            //drawerLayout.SetDrawerListener(drawerToggle);
-            //drawerToggle.SyncState();
-            //navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
-            //setupDrawerContent(navigationView); //Calling Function
-            var bottomNavigation = FindViewById<BottomNavigationView>(Resource.Id.navigation_menu);
-            bottomNavigation.NavigationItemSelected += (s, e) =>
-            {
-                switch (e.Item.ItemId)
-                {
-                    case Resource.Id.books:
-                        loadFragment(new BooksFragment());
-                        break;
-                    case Resource.Id.video:
-                        loadFragment(new VideoFragment());
-                        break;
-                    case Resource.Id.settings:
-                        loadFragment(new SettingsFragment());
-                        break;
-                }
-            };
-            loadFragment(new BooksFragment());
+            drawerLayout.SetDrawerListener(drawerToggle);
+            drawerToggle.SyncState();
+            navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
+            setupDrawerContent(navigationView); //Calling Function
+            bottomNavigation = FindViewById<BottomNavigationView>(Resource.Id.bottomNavigation);
+            bottomNavigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
+            LoadFragment(Resource.Id.books);
         }
-        //void setupDrawerContent(NavigationView navigationView)
-        //{
-        //    navigationView.NavigationItemSelected += (sender, e) =>
-        //    {
-        //        e.MenuItem.SetChecked(true);
-        //        drawerLayout.CloseDrawers();
-        //    };
-        //}
-        //public override bool OnCreateOptionsMenu(IMenu menu)
-        //{
-        //    navigationView.InflateMenu(Resource.Menu.nav_menu); //Navigation Drawer Layout Menu Creation  
-        //    return true;
-        //}
-
-        private bool loadFragment(Fragment fragment)
+        void setupDrawerContent(NavigationView navigationView)
         {
-            FragmentManager fm = this.FragmentManager;
-            fm.BeginTransaction().Replace(Resource.Id.fragment_container, fragment).Commit();
+            navigationView.NavigationItemSelected += (sender, e) =>
+            {
+                e.MenuItem.SetChecked(true);
+                drawerLayout.CloseDrawers();
+            };
+        }
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            navigationView.InflateMenu(Resource.Menu.nav_menu); //Navigation Drawer Layout Menu Creation  
             return true;
         }
-        public bool OnNavigationItemSelected(IMenuItem item)
+
+        private void BottomNavigation_NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)
+        {
+            LoadFragment(e.Item.ItemId);
+        }
+        public void LoadFragment(int id)
         {
             Fragment fragment = null;
-                switch (item.ItemId)
-                {
-                    case Resource.Id.books:
-                        loadFragment(new BooksFragment());
-                        break;
-                    case Resource.Id.video:
-                        loadFragment(new VideoFragment());
-                        break;
-                    case Resource.Id.settings:
-                        loadFragment(new SettingsFragment());
-                        break;
-                }
-            return loadFragment(fragment);
+            switch (id)
+            {
+                case Resource.Id.books:
+                    fragment = new BooksFragment();
+                    break;
+                case Resource.Id.video:
+                    fragment = new VideoFragment();
+                    break;
+                case Resource.Id.settings:
+                    fragment = new SettingsFragment();
+                    break;
+            }
+
+            if (fragment == null)
+                return;
+
+            FragmentManager fm = this.FragmentManager;
+            fm.BeginTransaction().Replace(Resource.Id.fragment_container, fragment).Commit();
         }
     }
 }
