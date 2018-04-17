@@ -22,7 +22,7 @@ namespace PL
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            return inflater.Inflate(Resource.Layout.fragment_settings, root: null);
+            return inflater.Inflate(Resource.Layout.frag_settings, root: null);
         }
     }
 }

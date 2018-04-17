@@ -15,7 +15,6 @@ using V7Toolbar = Android.Support.V7.Widget.Toolbar;
 using Android.Support.Design.Widget;
 using Android.Support.V4.Widget;
 using Android.Views;
-using Java;
 using static Android.Support.Design.Widget.BottomNavigationView;
 
 namespace PL
@@ -42,6 +41,7 @@ namespace PL
             setupDrawerContent(navigationView); //Calling Function
             bottomNavigation = FindViewById<BottomNavigationView>(Resource.Id.bottomNavigation);
             bottomNavigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
+            navigationView.NavigationItemSelected += Navigation_NavigationItemSelected;
             LoadFragment(Resource.Id.books);
         }
         void setupDrawerContent(NavigationView navigationView)
@@ -57,7 +57,27 @@ namespace PL
             navigationView.InflateMenu(Resource.Menu.nav_menu); //Navigation Drawer Layout Menu Creation  
             return true;
         }
-
+        private void Navigation_NavigationItemSelected(object sender, NavigationView.NavigationItemSelectedEventArgs e)
+        {
+            LoadLanguage(e.MenuItem.ItemId);
+        }
+        public void LoadLanguage(int id)
+        {
+            Fragment fragment = null;
+            switch (id)
+            {
+                case Resource.Id.nav_cpp:
+                    fragment = new BooksFragmentCPP();
+                    break;
+                case Resource.Id.nav_csharp:
+                    fragment = new BooksFragmentCSharp();
+                    break;
+            }
+            if (fragment == null)
+                return;
+            FragmentManager fm = this.FragmentManager;
+            fm.BeginTransaction().Replace(Resource.Id.fragment_container, fragment).Commit();
+        }
         private void BottomNavigation_NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)
         {
             LoadFragment(e.Item.ItemId);
@@ -68,7 +88,7 @@ namespace PL
             switch (id)
             {
                 case Resource.Id.books:
-                    fragment = new BooksFragment();
+                    fragment = new BooksFragmentCPP();
                     break;
                 case Resource.Id.video:
                     fragment = new VideoFragment();
@@ -77,10 +97,8 @@ namespace PL
                     fragment = new SettingsFragment();
                     break;
             }
-
             if (fragment == null)
                 return;
-
             FragmentManager fm = this.FragmentManager;
             fm.BeginTransaction().Replace(Resource.Id.fragment_container, fragment).Commit();
         }

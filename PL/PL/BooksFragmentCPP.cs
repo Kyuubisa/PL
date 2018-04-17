@@ -1,19 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Util;
+﻿using Android.Support.Design.Widget;
 using Android.Views;
+using Android.App;
 using Android.Widget;
+using Android.OS;
+using Android.Graphics;
+using System.Threading;
+using System.Collections.Generic;
+using Android.Support.V7.App;
+using System;
 
 namespace PL
 {
-    public class BooksFragment : Fragment
+    public class BooksFragmentCPP : Fragment
     {
         public override void OnCreate(Bundle savedInstanceState)
         {
@@ -22,7 +20,7 @@ namespace PL
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            return inflater.Inflate(Resource.Layout.fragment_books, root:null);
+            return inflater.Inflate(Resource.Layout.frag_books_cplusplus, root: null);
         }
     }
 }

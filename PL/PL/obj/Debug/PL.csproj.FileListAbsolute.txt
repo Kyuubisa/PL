@@ -355,9 +355,6 @@ D:\Programs\Reposit\PL\PL\PL\bin\Debug\Newtonsoft.Json.xml
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\ic_lbooks.png
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\ic_settings.png
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\ic_video.png
-D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\fragment_books.xml
-D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\fragment_video.xml
-D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\fragment_settings.xml
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\menu\bottom_menu.xml
 D:\Programs\Reposit\PL\PL\PL\bin\Debug\Mono.Android.pdb
 D:\Programs\Reposit\PL\PL\PL\bin\Debug\mscorlib.pdb
@@ -398,5 +395,10 @@ D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.Runtime.Serializati
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.Xml.Linq.pdb
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.Xml.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\frag_books_cplusplus.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\frag_video.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\frag_settings.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\frag_books_csharp.xml
 D:\Programs\Reposit\PL\PL\PL\bin\Debug\PL.dll
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\PL.dll.mdb

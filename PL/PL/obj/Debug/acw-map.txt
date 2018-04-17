@@ -1,7 +1,11 @@
-PL.BooksFragment, PL;md5093f3f610c42b9c1e0cabd5fdce82f98.BooksFragment
-PL.BooksFragment, PL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5093f3f610c42b9c1e0cabd5fdce82f98.BooksFragment
-PL.BooksFragment;md5093f3f610c42b9c1e0cabd5fdce82f98.BooksFragment
-pl.BooksFragment;md5093f3f610c42b9c1e0cabd5fdce82f98.BooksFragment
+PL.BooksFragmentCPP, PL;md5093f3f610c42b9c1e0cabd5fdce82f98.BooksFragmentCPP
+PL.BooksFragmentCPP, PL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5093f3f610c42b9c1e0cabd5fdce82f98.BooksFragmentCPP
+PL.BooksFragmentCPP;md5093f3f610c42b9c1e0cabd5fdce82f98.BooksFragmentCPP
+pl.BooksFragmentCPP;md5093f3f610c42b9c1e0cabd5fdce82f98.BooksFragmentCPP
+PL.BooksFragmentCSharp, PL;md5093f3f610c42b9c1e0cabd5fdce82f98.BooksFragmentCSharp
+PL.BooksFragmentCSharp, PL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5093f3f610c42b9c1e0cabd5fdce82f98.BooksFragmentCSharp
+PL.BooksFragmentCSharp;md5093f3f610c42b9c1e0cabd5fdce82f98.BooksFragmentCSharp
+pl.BooksFragmentCSharp;md5093f3f610c42b9c1e0cabd5fdce82f98.BooksFragmentCSharp
 PL.Loading, PL;md5093f3f610c42b9c1e0cabd5fdce82f98.Loading
 PL.Loading, PL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5093f3f610c42b9c1e0cabd5fdce82f98.Loading
 PL.Loading;md5093f3f610c42b9c1e0cabd5fdce82f98.Loading

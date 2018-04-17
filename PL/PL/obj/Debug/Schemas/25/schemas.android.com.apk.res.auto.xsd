@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>18.03.2018 20:09:48</xs:documentation>
+    <xs:documentation>09.04.2018 8:59:28</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -1213,9 +1213,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -1845,9 +1842,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2418,9 +2412,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2968,9 +2959,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4745,9 +4733,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5295,9 +5280,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6341,9 +6323,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6891,9 +6870,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -8406,9 +8382,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -9014,9 +8987,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -9564,9 +9534,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10198,9 +10165,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10976,9 +10940,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -11596,9 +11557,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12333,9 +12291,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13070,9 +13025,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13620,9 +13572,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14748,9 +14697,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15380,9 +15326,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16012,9 +15955,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -17001,9 +16941,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18068,9 +18005,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18618,9 +18552,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19337,9 +19268,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20074,9 +20002,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20636,9 +20561,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -21373,9 +21295,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22283,9 +22202,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -22833,9 +22749,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -25407,9 +25320,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -27664,9 +27574,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28401,9 +28308,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28951,9 +28855,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29749,9 +29650,6 @@
             <xs:enumeration value="@drawable/ruby_50" />
             <xs:enumeration value="@drawable/sql" />
             <xs:enumeration value="@drawable/sql_50" />
-            <xs:enumeration value="@mipmap/ic_library_books_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_settings_white_24dp" />
-            <xs:enumeration value="@mipmap/ic_theaters_white_24dp" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
