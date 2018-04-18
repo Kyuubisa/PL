@@ -31,32 +31,40 @@ namespace PL
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Main);
             RequestedOrientation = ScreenOrientation.Portrait;
-            drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
+
             var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
+
+            navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
+            navigationView.NavigationItemSelected += Navigation_NavigationItemSelected;
+
+            drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             var drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, Resource.String.drawer_open, Resource.String.drawer_close);
             drawerLayout.SetDrawerListener(drawerToggle);
             drawerToggle.SyncState();
-            navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
-            setupDrawerContent(navigationView); //Calling Function
+            setupDrawerContent(navigationView);
+            
             bottomNavigation = FindViewById<BottomNavigationView>(Resource.Id.bottomNavigation);
             bottomNavigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
-            navigationView.NavigationItemSelected += Navigation_NavigationItemSelected;
+
             LoadFragment(Resource.Id.books);
         }
+
         void setupDrawerContent(NavigationView navigationView)
         {
-            navigationView.NavigationItemSelected += (sender, e) =>
+            navigationView.NavigationItemSelected += (s, e) =>
             {
                 e.MenuItem.SetChecked(true);
                 drawerLayout.CloseDrawers();
             };
         }
+
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
             navigationView.InflateMenu(Resource.Menu.nav_menu); //Navigation Drawer Layout Menu Creation  
             return true;
         }
+
         private void Navigation_NavigationItemSelected(object sender, NavigationView.NavigationItemSelectedEventArgs e)
         {
             LoadLanguage(e.MenuItem.ItemId);
@@ -78,6 +86,7 @@ namespace PL
             FragmentManager fm = this.FragmentManager;
             fm.BeginTransaction().Replace(Resource.Id.fragment_container, fragment).Commit();
         }
+
         private void BottomNavigation_NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)
         {
             LoadFragment(e.Item.ItemId);
@@ -94,7 +103,7 @@ namespace PL
                     fragment = new VideoFragment();
                     break;
                 case Resource.Id.settings:
-                    fragment = new SettingsFragment();
+                    SetContentView(Resource.Layout.frag_settings);
                     break;
             }
             if (fragment == null)
