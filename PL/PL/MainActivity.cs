@@ -30,6 +30,7 @@ namespace PL
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Main);
+            LoadFragment(Resource.Id.books);
             RequestedOrientation = ScreenOrientation.Portrait;
 
             var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
@@ -38,16 +39,14 @@ namespace PL
             navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             navigationView.NavigationItemSelected += Navigation_NavigationItemSelected;
 
+            bottomNavigation = FindViewById<BottomNavigationView>(Resource.Id.bottomNavigation);
+            bottomNavigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
+
             drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             var drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, Resource.String.drawer_open, Resource.String.drawer_close);
             drawerLayout.SetDrawerListener(drawerToggle);
             drawerToggle.SyncState();
             setupDrawerContent(navigationView);
-            
-            bottomNavigation = FindViewById<BottomNavigationView>(Resource.Id.bottomNavigation);
-            bottomNavigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
-
-            LoadFragment(Resource.Id.books);
         }
 
         void setupDrawerContent(NavigationView navigationView)
@@ -94,6 +93,7 @@ namespace PL
         public void LoadFragment(int id)
         {
             Fragment fragment = null;
+            Activity activity = null;
             switch (id)
             {
                 case Resource.Id.books:
@@ -103,7 +103,7 @@ namespace PL
                     fragment = new VideoFragment();
                     break;
                 case Resource.Id.settings:
-                    SetContentView(Resource.Layout.frag_settings);
+                    StartActivity(typeof(SettingsFragment));
                     break;
             }
             if (fragment == null)

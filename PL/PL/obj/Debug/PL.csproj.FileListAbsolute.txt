@@ -399,5 +399,6 @@ D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.Runtime.Serializati
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.Xml.Linq.pdb
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.Xml.pdb
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
 D:\Programs\Reposit\PL\PL\PL\bin\Debug\PL.dll
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\linksrc\PL.dll.mdb

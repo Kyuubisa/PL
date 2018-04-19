@@ -3,6 +3,7 @@ using Android.Widget;
 using Android.OS;
 using Android.Content;
 using Android.Support.V7.App;
+using Android.Views;
 
 namespace PL
 {
@@ -13,8 +14,9 @@ namespace PL
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            var btnSend = FindViewById<Button>(Resource.Id.notification);
-            btnSend.Click += (s, e) =>
+            SetContentView(Resource.Layout.frag_settings);
+            var notification = FindViewById<View>(Resource.Id.notification);
+            notification.Click += (s, e) =>
             {
                 Intent intent = new Intent(this, typeof(SettingsFragment));
                 Android.Support.V4.App.TaskStackBuilder stackBuilder = Android.Support.V4.App.TaskStackBuilder.Create(this);

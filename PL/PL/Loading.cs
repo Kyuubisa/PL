@@ -53,8 +53,7 @@ namespace PL
                     if (progress == 100)
                     {
                         seekBar.Progress = progress;
-                        Intent cs = new Intent(this, typeof(MainActivity));
-                        StartActivity(cs);
+                        StartActivity(typeof(MainActivity));
                     }
                 }
             });
