@@ -7,7 +7,7 @@ using Android.Views;
 
 namespace PL
 {
-    [Activity(MainLauncher = true, Theme = "@style/Theme.DesignDemo")]
+    [Activity(MainLauncher = true, Theme = "@style/Theme.DesignDemo", Label = "Настройки")]
     public class SettingsFragment : AppCompatActivity
     {
         private static readonly int ButtonClickNotification = 666;

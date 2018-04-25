@@ -3124,7 +3124,7 @@ containing a value of this type.
         public static final int design_menu_item_text=0x7f070090;
         public static final int design_navigation_view=0x7f07008f;
         public static final int disableHome=0x7f070012;
-        public static final int drawer_layout=0x7f070097;
+        public static final int drawer_layout=0x7f070094;
         public static final int east=0x7f070045;
         public static final int edit_query=0x7f07006e;
         public static final int end=0x7f070021;
@@ -3177,7 +3177,7 @@ containing a value of this type.
         public static final int none=0x7f070014;
         public static final int normal=0x7f070010;
         public static final int north=0x7f070046;
-        public static final int notification=0x7f070094;
+        public static final int notification=0x7f070095;
         public static final int notification_background=0x7f0700ab;
         public static final int notification_main_column=0x7f0700a5;
         public static final int notification_main_column_container=0x7f0700a4;
@@ -3207,7 +3207,7 @@ containing a value of this type.
         public static final int search_plate=0x7f070074;
         public static final int search_src_text=0x7f070075;
         public static final int search_voice_btn=0x7f070079;
-        public static final int seekbar=0x7f070096;
+        public static final int seekbar=0x7f070097;
         public static final int select_dialog_listview=0x7f07007a;
         public static final int settings=0x7f0700bb;
         public static final int shortcut=0x7f070064;
@@ -3253,7 +3253,7 @@ containing a value of this type.
         public static final int video=0x7f0700ba;
         public static final int view_offset_helper=0x7f07000e;
         public static final int visible=0x7f0700b6;
-        public static final int waveLoadingView=0x7f070095;
+        public static final int waveLoadingView=0x7f070096;
         public static final int west=0x7f070048;
         public static final int withText=0x7f070027;
         public static final int wrap_content=0x7f07001f;

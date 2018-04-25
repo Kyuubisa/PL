@@ -17,7 +17,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:theme="@style/Theme.DesignDemo" android:name="md5093f3f610c42b9c1e0cabd5fdce82f98.SettingsFragment">
+    <activity android:label="Настройки" android:theme="@style/Theme.DesignDemo" android:name="md5093f3f610c42b9c1e0cabd5fdce82f98.SettingsFragment">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

@@ -3124,7 +3124,7 @@ containing a value of this type.
         public static int design_menu_item_text=0x7f070090;
         public static int design_navigation_view=0x7f07008f;
         public static int disableHome=0x7f070012;
-        public static int drawer_layout=0x7f070097;
+        public static int drawer_layout=0x7f070094;
         public static int east=0x7f070045;
         public static int edit_query=0x7f07006e;
         public static int end=0x7f070021;
@@ -3177,7 +3177,7 @@ containing a value of this type.
         public static int none=0x7f070014;
         public static int normal=0x7f070010;
         public static int north=0x7f070046;
-        public static int notification=0x7f070094;
+        public static int notification=0x7f070095;
         public static int notification_background=0x7f0700ab;
         public static int notification_main_column=0x7f0700a5;
         public static int notification_main_column_container=0x7f0700a4;
@@ -3207,7 +3207,7 @@ containing a value of this type.
         public static int search_plate=0x7f070074;
         public static int search_src_text=0x7f070075;
         public static int search_voice_btn=0x7f070079;
-        public static int seekbar=0x7f070096;
+        public static int seekbar=0x7f070097;
         public static int select_dialog_listview=0x7f07007a;
         public static int settings=0x7f0700bb;
         public static int shortcut=0x7f070064;
@@ -3253,7 +3253,7 @@ containing a value of this type.
         public static int video=0x7f0700ba;
         public static int view_offset_helper=0x7f07000e;
         public static int visible=0x7f0700b6;
-        public static int waveLoadingView=0x7f070095;
+        public static int waveLoadingView=0x7f070096;
         public static int west=0x7f070048;
         public static int withText=0x7f070027;
         public static int wrap_content=0x7f07001f;

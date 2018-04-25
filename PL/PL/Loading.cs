@@ -25,12 +25,15 @@ namespace PL
         {
             waveLodingView.ProgressValue = progress;
         }
-        public void OnStartTrackingTouch(SeekBar seekBar){}
-        public void OnStopTrackingTouch(SeekBar seekBar){}
+        public void OnStartTrackingTouch(SeekBar seekBar)
+        {
+        }
+        public void OnStopTrackingTouch(SeekBar seekBar)
+        {
+        }
 
         protected async override void OnCreate(Bundle savedInstanceState)
         {
-            MainActivity main = new MainActivity();
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Loading);
             this.RequestedOrientation = ScreenOrientation.Portrait;

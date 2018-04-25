@@ -26,6 +26,7 @@ namespace PL
         DrawerLayout drawerLayout;
         NavigationView navigationView;
         BottomNavigationView bottomNavigation;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);

@@ -2588,8 +2588,8 @@ namespace PL
 			// aapt resource value: 0x7f070012
 			public const int disableHome = 2131165202;
 			
-			// aapt resource value: 0x7f070097
-			public const int drawer_layout = 2131165335;
+			// aapt resource value: 0x7f070094
+			public const int drawer_layout = 2131165332;
 			
 			// aapt resource value: 0x7f070045
 			public const int east = 2131165253;
@@ -2747,8 +2747,8 @@ namespace PL
 			// aapt resource value: 0x7f070046
 			public const int north = 2131165254;
 			
-			// aapt resource value: 0x7f070094
-			public const int notification = 2131165332;
+			// aapt resource value: 0x7f070095
+			public const int notification = 2131165333;
 			
 			// aapt resource value: 0x7f0700ab
 			public const int notification_background = 2131165355;
@@ -2837,8 +2837,8 @@ namespace PL
 			// aapt resource value: 0x7f070079
 			public const int search_voice_btn = 2131165305;
 			
-			// aapt resource value: 0x7f070096
-			public const int seekbar = 2131165334;
+			// aapt resource value: 0x7f070097
+			public const int seekbar = 2131165335;
 			
 			// aapt resource value: 0x7f07007a
 			public const int select_dialog_listview = 2131165306;
@@ -2975,8 +2975,8 @@ namespace PL
 			// aapt resource value: 0x7f0700b6
 			public const int visible = 2131165366;
 			
-			// aapt resource value: 0x7f070095
-			public const int waveLoadingView = 2131165333;
+			// aapt resource value: 0x7f070096
+			public const int waveLoadingView = 2131165334;
 			
 			// aapt resource value: 0x7f070048
 			public const int west = 2131165256;
