@@ -61,7 +61,7 @@ namespace PL
 
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
-            navigationView.InflateMenu(Resource.Menu.nav_menu); //Navigation Drawer Layout Menu Creation  
+            navigationView.InflateMenu(Resource.Menu.nav_menu);
             return true;
         }
 
@@ -69,6 +69,7 @@ namespace PL
         {
             LoadLanguage(e.MenuItem.ItemId);
         }
+
         public void LoadLanguage(int id)
         {
             Fragment fragment = null;
@@ -79,6 +80,9 @@ namespace PL
                     break;
                 case Resource.Id.nav_csharp:
                     fragment = new BooksFragmentCSharp();
+                    break;
+                case Resource.Id.nav_add:
+                    SetContentView(Resource.Layout.CardViewLanguage);
                     break;
             }
             if (fragment == null)
@@ -94,7 +98,6 @@ namespace PL
         public void LoadFragment(int id)
         {
             Fragment fragment = null;
-            Activity activity = null;
             switch (id)
             {
                 case Resource.Id.books:

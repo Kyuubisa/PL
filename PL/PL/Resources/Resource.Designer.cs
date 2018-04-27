@@ -2693,38 +2693,41 @@ namespace PL
 			// aapt resource value: 0x7f070019
 			public const int multiply = 2131165209;
 			
-			// aapt resource value: 0x7f0700c6
-			public const int nav_add = 2131165382;
-			
-			// aapt resource value: 0x7f0700bc
-			public const int nav_cpp = 2131165372;
+			// aapt resource value: 0x7f0700c7
+			public const int nav_add = 2131165383;
 			
 			// aapt resource value: 0x7f0700bd
-			public const int nav_csharp = 2131165373;
-			
-			// aapt resource value: 0x7f0700c3
-			public const int nav_css = 2131165379;
-			
-			// aapt resource value: 0x7f0700c2
-			public const int nav_html = 2131165378;
+			public const int nav_cpp = 2131165373;
 			
 			// aapt resource value: 0x7f0700be
-			public const int nav_java = 2131165374;
-			
-			// aapt resource value: 0x7f0700c1
-			public const int nav_javascript = 2131165377;
+			public const int nav_csharp = 2131165374;
 			
 			// aapt resource value: 0x7f0700c4
-			public const int nav_php = 2131165380;
+			public const int nav_css = 2131165380;
+			
+			// aapt resource value: 0x7f0700c3
+			public const int nav_html = 2131165379;
 			
 			// aapt resource value: 0x7f0700bf
-			public const int nav_python = 2131165375;
+			public const int nav_java = 2131165375;
 			
-			// aapt resource value: 0x7f0700c0
-			public const int nav_ruby = 2131165376;
+			// aapt resource value: 0x7f0700c2
+			public const int nav_javascript = 2131165378;
+			
+			// aapt resource value: 0x7f0700bc
+			public const int nav_menu = 2131165372;
 			
 			// aapt resource value: 0x7f0700c5
-			public const int nav_sql = 2131165381;
+			public const int nav_php = 2131165381;
+			
+			// aapt resource value: 0x7f0700c0
+			public const int nav_python = 2131165376;
+			
+			// aapt resource value: 0x7f0700c1
+			public const int nav_ruby = 2131165377;
+			
+			// aapt resource value: 0x7f0700c6
+			public const int nav_sql = 2131165382;
 			
 			// aapt resource value: 0x7f070098
 			public const int nav_view = 2131165336;

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/nav_menu">
   <group android:checkableBehavior="single">
     <item android:id="@+id/nav_cpp"  android:icon="@drawable/cpp_50" android:title="C++" />
     <item android:id="@+id/nav_csharp"  android:icon="@drawable/csharp_50" android:title="C#" />
