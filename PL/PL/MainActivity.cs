@@ -16,73 +16,73 @@ using Android.Support.Design.Widget;
 using Android.Support.V4.Widget;
 using Android.Views;
 using static Android.Support.Design.Widget.BottomNavigationView;
+using Android.Locations;
+using Android.Hardware.Usb;
 
 namespace PL
 {
-    [Activity(MainLauncher = true,Theme = "@style/Theme.DesignDemo")]
+    [Activity(/*MainLauncher = true,*/Theme = "@style/Theme.DesignDemo")]
 
     public class MainActivity : AppCompatActivity
     {
         DrawerLayout drawerLayout;
         NavigationView navigationView;
         BottomNavigationView bottomNavigation;
+        public int lang;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Main);
-            LoadFragment(Resource.Id.books);
             RequestedOrientation = ScreenOrientation.Portrait;
-
-            var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
-            SetSupportActionBar(toolbar);
-
-            navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
-            navigationView.NavigationItemSelected += Navigation_NavigationItemSelected;
 
             bottomNavigation = FindViewById<BottomNavigationView>(Resource.Id.bottomNavigation);
             bottomNavigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
 
+            var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
+            SetSupportActionBar(toolbar);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(false);
+            SupportActionBar.SetHomeButtonEnabled(true);
+            SupportActionBar.SetHomeAsUpIndicator(Resource.Drawable.hamburger);
             drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
-            var drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, Resource.String.drawer_open, Resource.String.drawer_close);
-            drawerLayout.SetDrawerListener(drawerToggle);
-            drawerToggle.SyncState();
-            setupDrawerContent(navigationView);
+            navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
+            navigationView.NavigationItemSelected += Navigation_NavigationItemSelected;
         }
 
-        void setupDrawerContent(NavigationView navigationView)
+        public override bool OnOptionsItemSelected(IMenuItem item) // Выбор элементов бокового меню.
         {
-            navigationView.NavigationItemSelected += (s, e) =>
+            switch (item.ItemId)
             {
-                e.MenuItem.SetChecked(true);
-                drawerLayout.CloseDrawers();
-            };
-        }
-
-        public override bool OnCreateOptionsMenu(IMenu menu)
-        {
-            navigationView.InflateMenu(Resource.Menu.nav_menu);
-            return true;
+                case Android.Resource.Id.Home:
+                    drawerLayout.OpenDrawer(Android.Support.V4.View.GravityCompat.Start);
+                    return true;
+            }
+            return base.OnOptionsItemSelected(item);
         }
 
         private void Navigation_NavigationItemSelected(object sender, NavigationView.NavigationItemSelectedEventArgs e)
         {
             LoadLanguage(e.MenuItem.ItemId);
         }
-
         public void LoadLanguage(int id)
         {
             Fragment fragment = null;
             switch (id)
             {
                 case Resource.Id.nav_cpp:
+                    lang = 1;
                     fragment = new BooksFragmentCPP();
+                    drawerLayout.CloseDrawer(Android.Support.V4.View.GravityCompat.Start);
                     break;
                 case Resource.Id.nav_csharp:
+                    lang = 2;
                     fragment = new BooksFragmentCSharp();
+                    drawerLayout.CloseDrawer(Android.Support.V4.View.GravityCompat.Start);
                     break;
                 case Resource.Id.nav_add:
                     SetContentView(Resource.Layout.CardViewLanguage);
+                    drawerLayout.CloseDrawer(Android.Support.V4.View.GravityCompat.Start);
                     break;
             }
             if (fragment == null)
@@ -91,23 +91,26 @@ namespace PL
             fm.BeginTransaction().Replace(Resource.Id.fragment_container, fragment).Commit();
         }
 
-        private void BottomNavigation_NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)
+        private void BottomNavigation_NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e) // Отправка ID нижнего меню в функцию.
         {
             LoadFragment(e.Item.ItemId);
         }
-        public void LoadFragment(int id)
+        public void LoadFragment(int id) // Выбор элементов нижнегом меню.
         {
             Fragment fragment = null;
             switch (id)
             {
                 case Resource.Id.books:
-                    fragment = new BooksFragmentCPP();
+                    if (lang == 1)
+                        fragment = new BooksFragmentCPP();
+                    else if (lang == 2)
+                        fragment = new BooksFragmentCSharp();
                     break;
                 case Resource.Id.video:
                     fragment = new VideoFragment();
                     break;
                 case Resource.Id.settings:
-                    StartActivity(typeof(SettingsFragment));
+                    fragment = new SettingsFragment();
                     break;
             }
             if (fragment == null)

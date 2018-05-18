@@ -136,10 +136,7 @@ D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\loading.xml
 D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Design.dll
 D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Transition.dll
 D:\Programs\Reposit\PL\PL\PL\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
-D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\toolbar.xml
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\values\styles.xml
-D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\menu\nav_menu.xml
-D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\nav_header.xml
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\add_50.png
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\cpp_50.png
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\csharp_50.png
@@ -360,6 +357,8 @@ D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\frag_books_cplusplus.xml
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\frag_video.xml
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\frag_settings.xml
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\frag_books_csharp.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\menu\menu.xml
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\layout\toolbar.xml
 D:\Programs\Reposit\PL\PL\PL\bin\Debug\Mono.Android.pdb
 D:\Programs\Reposit\PL\PL\PL\bin\Debug\mscorlib.pdb
 D:\Programs\Reposit\PL\PL\PL\bin\Debug\System.Core.pdb
@@ -400,3 +399,5 @@ D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.ServiceModel.Intern
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.Xml.Linq.pdb
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\android\assets\System.Xml.pdb
 D:\Programs\Reposit\PL\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\notification_fox_50.png
+D:\Programs\Reposit\PL\PL\PL\obj\Debug\res\drawable\hamburger.png

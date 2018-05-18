@@ -4,8 +4,6 @@
 
   </style>
   <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
-    <item name="colorPrimary">#FFA700</item> <!--Сама панель верхняя-->
-    <item name="colorPrimaryDark">#FF8D00</item> <!--Цвет там, где батарея-->
     <item name="android:windowBackground">@color/window_background</item>
   </style>
 

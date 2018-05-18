@@ -2,7 +2,7 @@
 <xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>21.04.2018 8:39:54</xs:documentation>
+    <xs:documentation>16.05.2018 9:57:16</xs:documentation>
   </xs:annotation>
   <xs:attribute name="layout">
     <xs:annotation>
@@ -60,7 +60,6 @@
             <xs:enumeration value="@layout/frag_video" />
             <xs:enumeration value="@layout/loading" />
             <xs:enumeration value="@layout/main" />
-            <xs:enumeration value="@layout/nav_header" />
             <xs:enumeration value="@layout/notification_action" />
             <xs:enumeration value="@layout/notification_action_tombstone" />
             <xs:enumeration value="@layout/notification_media_action" />
@@ -166,7 +165,6 @@
             <xs:enumeration value="@layout/frag_video" />
             <xs:enumeration value="@layout/loading" />
             <xs:enumeration value="@layout/main" />
-            <xs:enumeration value="@layout/nav_header" />
             <xs:enumeration value="@layout/notification_action" />
             <xs:enumeration value="@layout/notification_action_tombstone" />
             <xs:enumeration value="@layout/notification_media_action" />
@@ -272,7 +270,6 @@
             <xs:enumeration value="@layout/frag_video" />
             <xs:enumeration value="@layout/loading" />
             <xs:enumeration value="@layout/main" />
-            <xs:enumeration value="@layout/nav_header" />
             <xs:enumeration value="@layout/notification_action" />
             <xs:enumeration value="@layout/notification_action_tombstone" />
             <xs:enumeration value="@layout/notification_media_action" />
@@ -378,7 +375,6 @@
             <xs:enumeration value="@layout/frag_video" />
             <xs:enumeration value="@layout/loading" />
             <xs:enumeration value="@layout/main" />
-            <xs:enumeration value="@layout/nav_header" />
             <xs:enumeration value="@layout/notification_action" />
             <xs:enumeration value="@layout/notification_action_tombstone" />
             <xs:enumeration value="@layout/notification_media_action" />
