@@ -107,6 +107,9 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "PL.dll" comes first in this list. */
 		"PL.dll",
+		"FFImageLoading.dll",
+		"FFImageLoading.Platform.dll",
+		"HtmlAgilityPack.dll",
 		"Newtonsoft.Json.dll",
 		"WaveLoadingView.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
