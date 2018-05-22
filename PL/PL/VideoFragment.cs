@@ -27,6 +27,7 @@ namespace PL
     {
         public List<VideoFragment> list = new List<VideoFragment>();
         public List<Url> list1 = new List<Url>();
+        public List<Link> list2 = new List<Link>();
         public string image;
         public void YouTube()
         {
@@ -143,6 +144,65 @@ namespace PL
                     }
                 }
             }
+            
+        }
+        public void Parsing_link()
+        {
+            HttpWebRequest NewsPars;
+            HttpWebResponse response;
+            HtmlDocument htmlDocument = new HtmlDocument();
+            string url = "https://www.youtube.com/user/PlurrimiTube/videos?disable_polymer=1";
+            NewsPars = (HttpWebRequest)WebRequest.Create(url);
+            response = (HttpWebResponse)NewsPars.GetResponse();
+            htmlDocument.Load(response.GetResponseStream(), Encoding.UTF8);
+            var NewsHtml = htmlDocument.DocumentNode.Descendants("div").FirstOrDefault(x => x.Attributes.Contains("class") && x.Attributes["class"].Value == "branded-page-v2-body branded-page-v2-primary-column-content");
+            for (int i = 0; i < NewsHtml.ChildNodes.Count; i++)
+            {
+                if (NewsHtml.ChildNodes[i].Name == "ul")
+                {
+                    for (int j = 2; j < NewsHtml.ChildNodes[i].ChildNodes.Count; j++)
+                    {
+                        if (NewsHtml.ChildNodes[i].ChildNodes[j].Name == "li")
+                        {
+                            for (int l = 0; l < NewsHtml.ChildNodes[i].ChildNodes[j].ChildNodes.Count; l++)
+                            {//Стоп
+                                if (NewsHtml.ChildNodes[i].ChildNodes[j].ChildNodes[l].Name == "ul")
+                                {
+                                    for (int k = 0; k < NewsHtml.ChildNodes[i].ChildNodes[j].ChildNodes[l].ChildNodes.Count; k++)
+                                    {
+                                        if (NewsHtml.ChildNodes[i].ChildNodes[j].ChildNodes[l].ChildNodes[k].Name == "li")
+                                        {
+                                            for (int a = 0; a < NewsHtml.ChildNodes[i].ChildNodes[j].ChildNodes[l].ChildNodes[k].ChildNodes.Count; a++)
+                                            {
+                                                if (NewsHtml.ChildNodes[i].ChildNodes[j].ChildNodes[l].ChildNodes[k].ChildNodes[a].Name == "div")
+                                                {
+                                                    for (int e = 0; e < NewsHtml.ChildNodes[i].ChildNodes[j].ChildNodes[l].ChildNodes[k].ChildNodes[a].ChildNodes.Count; e++)
+                                                    {
+                                                        if (NewsHtml.ChildNodes[i].ChildNodes[j].ChildNodes[l].ChildNodes[k].ChildNodes[a].ChildNodes[a].Name == "div")
+                                                        {
+                                                            for (int t = 0; t < NewsHtml.ChildNodes[i].ChildNodes[j].ChildNodes[l].ChildNodes[k].ChildNodes[a].ChildNodes[e].ChildNodes.Count; t++)
+                                                            {
+                                                                if (NewsHtml.ChildNodes[i].ChildNodes[j].ChildNodes[l].ChildNodes[k].ChildNodes[a].ChildNodes[e].ChildNodes[t].Name == "div")
+                                                                {
+                                                                    var Link = NewsHtml.ChildNodes[i].ChildNodes[j].ChildNodes[l].ChildNodes[k].ChildNodes[a].ChildNodes[e].ChildNodes[t].ChildNodes[1].ChildNodes[0].Attributes["href"].Value; ;
+                                                                    list2.Add(new Link  { Link_video = Link });
+                                                                }
+                                                            }
+                                                        }
+
+                                                    }
+
+                                                }
+                                            }
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
         //ошибка интернета
         //try
@@ -170,11 +230,12 @@ namespace PL
             View view = inflater.Inflate(Resource.Layout.frag_video, container, false);
 
             YouTube();
+            Parsing_link();
 
             ImageService.Instance.Initialize();
 
             var linearLayout = (LinearLayout)view.FindViewById(Resource.Id.lin);
-
+            
             for (int i = 0; i < 30; i++)
             {
                 CardView cardView = new CardView(inflater.Context);
@@ -190,7 +251,19 @@ namespace PL
                 string text = list1[i].name_video_pars;
                 textView.Text = text;
                 linear.AddView(textView, layoutParams);
+                string url = list2[i].Link_video;
+                imageView.Click += (s,e)=>
+                {
+                    
+                        var uri = Android.Net.Uri.Parse("https://www.youtube.com" + url);
+                        var intent = new Intent(Intent.ActionView, uri);
+                        StartActivity(intent);
+                    
+                    
+                };
+                
             }
+            
 
             //string text = list1[0].name_video_pars;
             //var t = view.FindViewById<TextView>(Resource.Id.Name_video);

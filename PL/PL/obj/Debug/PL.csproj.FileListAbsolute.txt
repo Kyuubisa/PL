@@ -657,5 +657,6 @@ D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Transactions.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Web.Services.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Xml.Linq.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Xml.pdb
-D:\Programs\GitHub\PL\PL\PL\bin\Debug\PL.dll
-D:\Programs\GitHub\PL\PL\PL\obj\Debug\linksrc\PL.dll.mdb
+E:\PL\PL\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+E:\PL\PL\PL\PL\bin\Debug\PL.dll
+obj\Debug\linksrc\PL.dll.mdb
