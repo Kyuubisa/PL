@@ -3,11 +3,14 @@
      xmlns:tools="http://schemas.android.com/tools"
      android:layout_width="match_parent"
      android:layout_height="match_parent"
-     android:layout_marginTop="56dp">
+     android:layout_marginTop="56dp"
+     android:layout_marginBottom="56dp">
   <LinearLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
    android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+                android:id="@+id/lin">
+
     <android.support.v7.widget.CardView
               android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +28,7 @@
       android:id="@+id/Parsing"
      android:scaleType="centerCrop"/>
         <TextView
-          android:id="@+id/Name_video1"
+          android:id="@+id/Name_video"
     android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -34,23 +37,24 @@
                 android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
-  <android.support.v7.widget.CardView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    card_view:cardElevation="4dp"
-    card_view:cardUseCompatPadding="true"
-    card_view:cardCornerRadius="5dp">
-    <LinearLayout
-          android:layout_width="match_parent"
+
+    <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:orientation="vertical"
-          android:padding="8dp">
-      <FFImageLoading.Views.ImageViewAsync
-       android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:id="@+id/Parsing2"
-       android:scaleType="centerCrop"/>
-      <TextView
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
+      <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
+        <FFImageLoading.Views.ImageViewAsync
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing2"
+     android:scaleType="centerCrop"/>
+        <TextView
           android:id="@+id/Name_video2"
     android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -58,101 +62,108 @@
                 android:textColor="#333333"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="4dp" />
-    </LinearLayout>
-  </android.support.v7.widget.CardView>
-  
- <!--<android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardElevation="4dp"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="5dp">
-    <LinearLayout
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:orientation="vertical"
-       android:padding="8dp">
-      <FFImageLoading.Views.ImageViewAsync
-       android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:id="@+id/Parsing3"
-        android:scaleType="centerCrop"/>
-      <TextView
-         android:id="@+id/Name_video3"
-   android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:textAppearance="?android:attr/textAppearanceMedium"
-               android:textColor="#333333"
-               android:layout_gravity="center_horizontal"
-               android:layout_marginLeft="4dp" />
-    </LinearLayout>
-  </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-          android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardElevation="4dp"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="5dp">
-      <LinearLayout
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:orientation="vertical"
-       android:padding="8dp">
-  <FFImageLoading.Views.ImageViewAsync
-   android:layout_width="match_parent"
-    android:layout_height="250dp"
-    android:id="@+id/Parsing4"
-    android:scaleType="centerCrop"/>
-      <TextView
-         android:id="@+id/Name_video4"
-   android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:textAppearance="?android:attr/textAppearanceMedium"
-               android:textColor="#333333"
-               android:layout_gravity="center_horizontal"
-               android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-          android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardElevation="4dp"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="5dp">
+
+    <!--<android.support.v7.widget.CardView
+                  android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardElevation="4dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
-  <FFImageLoading.Views.ImageViewAsync
-   android:layout_width="match_parent"
-    android:layout_height="250dp"
-    android:id="@+id/Parsing5"/>
-        <TextView
-        android:id="@+id/Name_video5"
-  android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:textAppearance="?android:attr/textAppearanceMedium"
-              android:textColor="#333333"
-              android:layout_gravity="center_horizontal"
-              android:layout_marginLeft="4dp" />
-    </LinearLayout>     
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-      android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardElevation="4dp"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="5dp">
-      <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing6"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing3"
+     android:scaleType="centerCrop"/>
+        <TextView
+          android:id="@+id/Name_video3"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+
+Kyuubisa, [22.05.18 17:54]
+card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
+      <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
+        <FFImageLoading.Views.ImageViewAsync
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing4"
+     android:scaleType="centerCrop"/>
+        <TextView
+          android:id="@+id/Name_video4"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
+      <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
+        <FFImageLoading.Views.ImageViewAsync
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing5"
+     android:scaleType="centerCrop"/>
+        <TextView
+          android:id="@+id/Name_video5"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
+      <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
+        <FFImageLoading.Views.ImageViewAsync
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing6"
+     android:scaleType="centerCrop"/>
         <TextView
           android:id="@+id/Name_video6"
     android:layout_width="match_parent"
@@ -163,23 +174,54 @@
                 android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardElevation="4dp"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="5dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing7"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing7"
+     android:scaleType="centerCrop"/>
         <TextView
           android:id="@+id/Name_video7"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+
+Kyuubisa, [22.05.18 17:54]
+android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+                 android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           card_view:cardElevation="4dp"
+           card_view:cardUseCompatPadding="true"
+           card_view:cardCornerRadius="5dp">
+      <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
+        <FFImageLoading.Views.ImageViewAsync
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing8"
+     android:scaleType="centerCrop"/>
+        <TextView
+          android:id="@+id/Name_video8"
     android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -188,205 +230,189 @@
                 android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardElevation="4dp"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="5dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing8"/>
-        <TextView
-         android:id="@+id/Name_video8"
-   android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:textAppearance="?android:attr/textAppearanceMedium"
-               android:textColor="#333333"
-               android:layout_gravity="center_horizontal"
-               android:layout_marginLeft="4dp" />
-      </LinearLayout>
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardElevation="4dp"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="5dp">
-      <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
-        <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing9"/>
-        <TextView
-         android:id="@+id/Name_video9"
-   android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:textAppearance="?android:attr/textAppearanceMedium"
-               android:textColor="#333333"
-               android:layout_gravity="center_horizontal"
-               android:layout_marginLeft="4dp" />
-      </LinearLayout>
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardElevation="4dp"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="5dp">
-      <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
-        <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing10"/>
-        <TextView
-         android:id="@+id/Name_video10"
-   android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:textAppearance="?android:attr/textAppearanceMedium"
-               android:textColor="#333333"
-               android:layout_gravity="center_horizontal"
-               android:layout_marginLeft="4dp" />
-      </LinearLayout>
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardElevation="4dp"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="5dp">
-      <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
-        <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing11"/>
-        <TextView
-           android:id="@+id/Name_video11"
      android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:textAppearance="?android:attr/textAppearanceMedium"
-                 android:textColor="#333333"
-                 android:layout_gravity="center_horizontal"
-                 android:layout_marginLeft="4dp" />
-      </LinearLayout>
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardElevation="4dp"
-        card_view:cardUseCompatPadding="true"
-        card_view:cardCornerRadius="5dp">
-      <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
-        <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing12"/>
+      android:layout_height="250dp"
+      android:id="@+id/Parsing9"
+     android:scaleType="centerCrop"/>
         <TextView
-           android:id="@+id/Name_video12"
-     android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:textAppearance="?android:attr/textAppearanceMedium"
-                 android:textColor="#333333"
-                 android:layout_gravity="center_horizontal"
-                 android:layout_marginLeft="4dp" />
+          android:id="@+id/Name_video9"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-          android:id="@+id/card_view_cpp"
-          android:layout_gravity="center"
-          android:layout_width="350dp"
-          android:layout_height="250dp"
-          android:layout_marginBottom="10dp"
-          android:layout_marginTop="10dp"
-          android:layout_marginLeft="10dp"
-          android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing13"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing10"
+     android:scaleType="centerCrop"/>
         <TextView
-           android:id="@+id/Name_video13"
-     android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:textAppearance="?android:attr/textAppearanceMedium"
-                 android:textColor="#333333"
-                 android:layout_gravity="center_horizontal"
-                 android:layout_marginLeft="4dp" />
+          android:id="@+id/Name_video10"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing14"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+
+Kyuubisa, [22.05.18 17:54]
+android:id="@+id/Parsing11"
+     android:scaleType="centerCrop"/>
         <TextView
-           android:id="@+id/Name_video14"
-     android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:textAppearance="?android:attr/textAppearanceMedium"
-                 android:textColor="#333333"
-                 android:layout_gravity="center_horizontal"
-                 android:layout_marginLeft="4dp" />
+          android:id="@+id/Name_video11"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                 android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           card_view:cardElevation="4dp"
+           card_view:cardUseCompatPadding="true"
+           card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing15"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing12"
+     android:scaleType="centerCrop"/>
+        <TextView
+          android:id="@+id/Name_video12"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
+      <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
+        <FFImageLoading.Views.ImageViewAsync
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing13"
+     android:scaleType="centerCrop"/>
+        <TextView
+          android:id="@+id/Name_video13"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
+      <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
+        <FFImageLoading.Views.ImageViewAsync
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing14"
+     android:scaleType="centerCrop"/>
+        <TextView
+          android:id="@+id/Name_video14"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+
+Kyuubisa, [22.05.18 17:54]
+card_view:cardCornerRadius="5dp">
+      <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
+        <FFImageLoading.Views.ImageViewAsync
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing15"
+     android:scaleType="centerCrop"/>
         <TextView
           android:id="@+id/Name_video15"
     android:layout_width="match_parent"
@@ -397,24 +423,23 @@
                 android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing16"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing16"
+     android:scaleType="centerCrop"/>
         <TextView
           android:id="@+id/Name_video16"
     android:layout_width="match_parent"
@@ -425,24 +450,23 @@
                 android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing17"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing17"
+     android:scaleType="centerCrop"/>
         <TextView
           android:id="@+id/Name_video17"
     android:layout_width="match_parent"
@@ -453,24 +477,23 @@
                 android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing18"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing18"
+     android:scaleType="centerCrop"/>
         <TextView
           android:id="@+id/Name_video18"
     android:layout_width="match_parent"
@@ -478,27 +501,28 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#333333"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginLeft="4dp" />
+
+Kyuubisa, [22.05.18 17:54]
+android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing19"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing19"
+     android:scaleType="centerCrop"/>
         <TextView
           android:id="@+id/Name_video19"
     android:layout_width="match_parent"
@@ -509,24 +533,23 @@
                 android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing20"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing20"
+     android:scaleType="centerCrop"/>
         <TextView
           android:id="@+id/Name_video20"
     android:layout_width="match_parent"
@@ -537,24 +560,23 @@
                 android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing21"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing21"
+     android:scaleType="centerCrop"/>
         <TextView
           android:id="@+id/Name_video21"
     android:layout_width="match_parent"
@@ -565,27 +587,27 @@
                 android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
-   
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                 android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           card_view:cardElevation="4dp"
+           card_view:cardUseCompatPadding="true"
+           card_view:cardCornerRadius="5dp">
       <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing22"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing22"
+
+Kyuubisa, [22.05.18 17:54]
+android:scaleType="centerCrop"/>
         <TextView
-          android:id="@+id/Name_video122"
+          android:id="@+id/Name_video22"
     android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -594,229 +616,224 @@
                 android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-     android:layout_width="match_parent"
-     android:layout_height="250dp"
-     android:orientation="vertical"
-     android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          android:id="@+id/Parsing23"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing23"
+     android:scaleType="centerCrop"/>
         <TextView
-            android:id="@+id/Name_video23"
-      android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:textAppearance="?android:attr/textAppearanceMedium"
-                  android:textColor="#333333"
-                  android:layout_gravity="center_horizontal"
-                  android:layout_marginLeft="4dp" />
+          android:id="@+id/Name_video23"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:orientation="vertical"
-     android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing24"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing24"
+     android:scaleType="centerCrop"/>
         <TextView
-            android:id="@+id/Name_video24"
-      android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:textAppearance="?android:attr/textAppearanceMedium"
-                  android:textColor="#333333"
-                  android:layout_gravity="center_horizontal"
-                  android:layout_marginLeft="4dp" />
+          android:id="@+id/Name_video24"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:orientation="vertical"
-     android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing25"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing25"
+     android:scaleType="centerCrop"/>
         <TextView
-            android:id="@+id/Name_video25"
-      android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:textAppearance="?android:attr/textAppearanceMedium"
-                  android:textColor="#333333"
-                  android:layout_gravity="center_horizontal"
-                  android:layout_marginLeft="4dp" />
+          android:id="@+id/Name_video25"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
-      <LinearLayout
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:orientation="vertical"
-     android:padding="8dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
+<LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing26"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing26"
+     android:scaleType="centerCrop"/>
         <TextView
-            android:id="@+id/Name_video26"
-      android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:textAppearance="?android:attr/textAppearanceMedium"
-                  android:textColor="#333333"
-                  android:layout_gravity="center_horizontal"
-                  android:layout_marginLeft="4dp" />
+          android:id="@+id/Name_video26"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-     android:layout_width="match_parent"
-     android:layout_height="250dp"
-     android:orientation="vertical"
-     android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing27"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing27"
+     android:scaleType="centerCrop"/>
         <TextView
-            android:id="@+id/Name_video27"
-      android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:textAppearance="?android:attr/textAppearanceMedium"
-                  android:textColor="#333333"
-                  android:layout_gravity="center_horizontal"
-                  android:layout_marginLeft="4dp" />
+          android:id="@+id/Name_video27"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:orientation="vertical"
-     android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing28"/>
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing28"
+     android:scaleType="centerCrop"/>
         <TextView
-            android:id="@+id/Name_video28"
-      android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:textAppearance="?android:attr/textAppearanceMedium"
-                  android:textColor="#333333"
-                  android:layout_gravity="center_horizontal"
-                  android:layout_marginLeft="4dp" />
+          android:id="@+id/Name_video28"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
       </LinearLayout>
     </android.support.v7.widget.CardView>
+    
     <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
       <LinearLayout
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:orientation="vertical"
-     android:padding="8dp">
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
         <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing29"/>
-        <TextView
-            android:id="@+id/Name_video129"
-      android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:textAppearance="?android:attr/textAppearanceMedium"
-                  android:textColor="#333333"
-                  android:layout_gravity="center_horizontal"
-                  android:layout_marginLeft="4dp" />
-      </LinearLayout>
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-         android:id="@+id/card_view_cpp"
-         android:layout_gravity="center"
-         android:layout_width="350dp"
-         android:layout_height="250dp"
-         android:layout_marginBottom="10dp"
-         android:layout_marginTop="10dp"
-         android:layout_marginLeft="10dp"
-         android:layout_marginRight="10dp">
-      <LinearLayout
      android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:orientation="vertical"
-     android:padding="8dp">
-        <FFImageLoading.Views.ImageViewAsync
-         android:layout_width="match_parent"
-          android:layout_height="250dp"
-          android:id="@+id/Parsing30"/>
+      android:layout_height="250dp"
+      android:id="@+id/Parsing29"
+     android:scaleType="centerCrop"/>
         <TextView
-            android:id="@+id/Name_video30"
-      android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:textAppearance="?android:attr/textAppearanceMedium"
-                  android:textColor="#333333"
-                  android:layout_gravity="center_horizontal"
-                  android:layout_marginLeft="4dp" />
-      </LinearLayout>
-    </android.support.v7.widget.CardView>-->-->
+          android:id="@+id/Name_video29"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
+
 </LinearLayout>
+    </android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          card_view:cardElevation="4dp"
+          card_view:cardUseCompatPadding="true"
+          card_view:cardCornerRadius="5dp">
+      <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="8dp">
+        <FFImageLoading.Views.ImageViewAsync
+     android:layout_width="match_parent"
+      android:layout_height="250dp"
+      android:id="@+id/Parsing30"
+     android:scaleType="centerCrop"/>
+        <TextView
+          android:id="@+id/Name_video30"
+    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#333333"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="4dp" />
+      </LinearLayout>
+    </android.support.v7.widget.CardView>-->
+
+  </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
+
