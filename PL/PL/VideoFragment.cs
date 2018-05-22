@@ -11,19 +11,20 @@ using Android.Content;
 using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.Widget;
 using Android.Text;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
 using FFImageLoading;
+using FFImageLoading.Views;
 using HtmlAgilityPack;
+using static Android.App.ActionBar;
 
 namespace PL
 {
     class VideoFragment : Fragment
     {
-
-        VideoFragment videoFragment;
         public List<VideoFragment> list = new List<VideoFragment>();
         public List<Url> list1 = new List<Url>();
         public string image;
@@ -171,17 +172,37 @@ namespace PL
             YouTube();
 
             ImageService.Instance.Initialize();
-            string text = list1[0].name_video_pars;
-            var t = view.FindViewById<TextView>(Resource.Id.Name_video);
-            t.Text = text;
-            var parsing = (FFImageLoading.Views.ImageViewAsync)view.FindViewById(Resource.Id.Parsing);
-            ImageService.Instance.LoadUrl(list[0].image).Into(parsing);
 
-            string text2 = list1[1].name_video_pars;
-            var t2 = view.FindViewById<TextView>(Resource.Id.Name_video2);
-            t2.Text = text2;
-            var parsing2 = (FFImageLoading.Views.ImageViewAsync)view.FindViewById(Resource.Id.Parsing2);
-            ImageService.Instance.LoadUrl(list[1].image).Into(parsing2);
+            var linearLayout = (LinearLayout)view.FindViewById(Resource.Id.lin);
+
+            for (int i = 0; i < 30; i++)
+            {
+                CardView cardView = new CardView(inflater.Context);
+                LayoutParams layoutParams = new LayoutParams(LayoutParams.MatchParent, LayoutParams.WrapContent);
+                linearLayout.AddView(cardView, layoutParams);
+                LinearLayout linear = new LinearLayout(inflater.Context);
+                cardView.AddView(linear, layoutParams);
+                ImageViewAsync imageView = new ImageViewAsync(inflater.Context);
+                LayoutParams imageParams = new LayoutParams(LayoutParams.MatchParent, 250);
+                ImageService.Instance.LoadUrl(list[i].image).Into(imageView);
+                linear.AddView(imageView, imageParams);
+                TextView textView = new TextView(inflater.Context);
+                string text = list1[i].name_video_pars;
+                textView.Text = text;
+                linear.AddView(textView, layoutParams);
+            }
+
+            //string text = list1[0].name_video_pars;
+            //var t = view.FindViewById<TextView>(Resource.Id.Name_video);
+            //t.Text = text;
+            //var parsing = (FFImageLoading.Views.ImageViewAsync)view.FindViewById(Resource.Id.Parsing);
+            //ImageService.Instance.LoadUrl(list[0].image).Into(parsing);
+
+            //string text2 = list1[1].name_video_pars;
+            //var t2 = view.FindViewById<TextView>(Resource.Id.Name_video2);
+            //t2.Text = text2;
+            //var parsing2 = (FFImageLoading.Views.ImageViewAsync)view.FindViewById(Resource.Id.Parsing2);
+            //ImageService.Instance.LoadUrl(list[1].image).Into(parsing2);
 
             //string text3 = list1[2].name_video_pars;
             //var t3 = view.FindViewById<TextView>(Resource.Id.Name_video3);
