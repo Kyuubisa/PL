@@ -590,6 +590,7 @@ D:\Programs\GitHub\PL\PL\PL\obj\Debug\res\drawable\notification_fox_50.png
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\res\drawable\hamburger.png
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\R.cs.flag
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\uploadflags.txt
+E:\PL\PL\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\Mono.Android.pdb
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\mscorlib.pdb
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\System.Core.pdb
@@ -632,7 +633,6 @@ D:\Programs\GitHub\PL\PL\PL\obj\Debug\linksrc\System.Web.Services.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\linksrc\System.Xml.Linq.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\linksrc\Microsoft.CSharp.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\linksrc\PL.dll.mdb
-D:\Programs\GitHub\PL\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\PL.dll.mdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\PL.dll.mdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\FFImageLoading.pdb
@@ -657,6 +657,5 @@ D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Transactions.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Web.Services.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Xml.Linq.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Xml.pdb
-E:\PL\PL\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
-E:\PL\PL\PL\PL\bin\Debug\PL.dll
-obj\Debug\linksrc\PL.dll.mdb
+D:\Programs\GitHub\PL\PL\PL\bin\Debug\PL.dll
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\linksrc\PL.dll.mdb
