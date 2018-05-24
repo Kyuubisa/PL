@@ -11,6 +11,12 @@
     <Jar>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\17\jl\bin\classes.jar</Jar>
     <Jar>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\18\jl\bin\classes.jar</Jar>
     <Jar>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\19\jl\bin\classes.jar</Jar>
+    <Jar>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\20\jl\classes.jar</Jar>
+    <Jar>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\21\jl\classes.jar</Jar>
+    <Jar>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\22\jl\classes.jar</Jar>
+    <Jar>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\23\jl\classes.jar</Jar>
+    <Jar>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\24\jl\classes.jar</Jar>
+    <Jar>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\25\jl\classes.jar</Jar>
     <Jar>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\5\jl\bin\classes.jar</Jar>
     <Jar>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\6\jl\bin\classes.jar</Jar>
     <Jar>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\7\jl\support-annotations.jar</Jar>
@@ -25,6 +31,8 @@
     <ResolvedResourceDirectory>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\16\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\17\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\18\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\20\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\22\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\lp\5\jl\assets</ResolvedAssetDirectory>
@@ -39,5 +47,7 @@
     <ResolvedResourceDirectoryStamp>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\16.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\17.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\18.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\20.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Programs\GitHub\PL\PL\PL\obj\Debug\lp\22.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

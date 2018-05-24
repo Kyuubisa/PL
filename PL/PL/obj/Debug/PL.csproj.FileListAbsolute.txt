@@ -513,8 +513,7 @@ E:\PL\PL\PL\PL\obj\Debug\R.cs.flag
 E:\PL\PL\PL\PL\obj\Debug\uploadflags.txt
 E:\PL\PL\PL\PL\bin\Debug\PL.dll.mdb
 E:\PL\PL\PL\PL\obj\Debug\android\assets\PL.dll.mdb
-D:\Programs\GitHub\PL\PL\PL\obj\Debug\PL.dll
-D:\Programs\GitHub\PL\PL\PL\obj\Debug\PL.pdb
+E:\PL\PL\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\PL.dll
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\PL.pdb
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\PL.PL.apk
@@ -538,6 +537,12 @@ D:\Programs\GitHub\PL\PL\PL\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+D:\Programs\GitHub\PL\PL\PL\bin\Debug\Xamarin.Firebase.Common.dll
+D:\Programs\GitHub\PL\PL\PL\bin\Debug\Xamarin.Firebase.Iid.dll
+D:\Programs\GitHub\PL\PL\PL\bin\Debug\Xamarin.Firebase.Messaging.dll
+D:\Programs\GitHub\PL\PL\PL\bin\Debug\Xamarin.GooglePlayServices.Base.dll
+D:\Programs\GitHub\PL\PL\PL\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
+D:\Programs\GitHub\PL\PL\PL\bin\Debug\Xamarin.GooglePlayServices.Tasks.dll
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\FFImageLoading.pdb
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\FFImageLoading.xml
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\FFImageLoading.Platform.pdb
@@ -545,8 +550,17 @@ D:\Programs\GitHub\PL\PL\PL\bin\Debug\FFImageLoading.Platform.xml
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\HtmlAgilityPack.pdb
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\HtmlAgilityPack.xml
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\Newtonsoft.Json.xml
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Basement.dll
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Base.dll
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\XbdMerge\Xamarin.Firebase.Common.dll
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\XbdMerge\Xamarin.Firebase.Iid.dll
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\XbdMerge\Xamarin.Firebase.Messaging.dll
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\ProcessGoogleServicesJson.stamp
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\PL.csproj.CoreCompileInputs.cache
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\PL.csproj.CopyComplete
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\PL.dll
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\PL.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\bin\PL.PL.apk
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\res\layout\cardviewlanguage.xml
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\res\layout\loading.xml
@@ -590,7 +604,6 @@ D:\Programs\GitHub\PL\PL\PL\obj\Debug\res\drawable\notification_fox_50.png
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\res\drawable\hamburger.png
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\R.cs.flag
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\uploadflags.txt
-E:\PL\PL\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\Mono.Android.pdb
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\mscorlib.pdb
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\System.Core.pdb
@@ -657,5 +670,6 @@ D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Transactions.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Web.Services.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Xml.Linq.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Xml.pdb
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\PL.dll
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\linksrc\PL.dll.mdb

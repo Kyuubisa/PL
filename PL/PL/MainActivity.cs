@@ -18,6 +18,10 @@ using Android.Views;
 using static Android.Support.Design.Widget.BottomNavigationView;
 using Android.Locations;
 using Android.Hardware.Usb;
+using Android.Gms.Common;
+using Firebase.Messaging;
+using Firebase.Iid;
+using Android.Util;
 
 namespace PL
 {
