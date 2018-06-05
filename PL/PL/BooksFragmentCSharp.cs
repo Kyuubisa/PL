@@ -9,7 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using PL.CSharpPart;
+
 
 namespace PL
 {
@@ -27,7 +27,7 @@ namespace PL
             var part1 = (Button)view.FindViewById(Resource.Id.cshp1);
             part1.Click += (s, e) =>
             { 
-                fragment = new CSharpPart1();
+                fragment = new BooksFragmentCPP();
             };
             return view;
         }

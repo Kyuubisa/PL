@@ -13,14 +13,14 @@
         <category android:name="PL.PL" />
       </intent-filter>
     </receiver>
-    <activity android:icon="@drawable/fox_icon" android:label="Языки программирования" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5093f3f610c42b9c1e0cabd5fdce82f98.Loading">
+    <activity android:icon="@drawable/fox_icon" android:label="Языки программирования" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md51166d6d38905517f003f759fa818e47e.Loading">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:theme="@style/Theme.DesignDemo" android:name="md5093f3f610c42b9c1e0cabd5fdce82f98.MainActivity" />
-    <service android:name="md5093f3f610c42b9c1e0cabd5fdce82f98.MyFirebaseIIDService">
+    <activity android:theme="@style/Theme.DesignDemo" android:name="md51166d6d38905517f003f759fa818e47e.MainActivity" />
+    <service android:name="md51166d6d38905517f003f759fa818e47e.MyFirebaseIIDService">
       <intent-filter>
         <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
       </intent-filter>

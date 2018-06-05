@@ -670,9 +670,8 @@ D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Transactions.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Web.Services.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Xml.Linq.pdb
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\android\assets\System.Xml.pdb
-D:\Programs\GitHub\PL\PL\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\res\drawable\fox_icon.png
-D:\Programs\GitHub\PL\PL\PL\obj\Debug\res\layout\csharppart1.xml
-D:\Programs\GitHub\PL\PL\PL\obj\Debug\res\layout\csharppart1ch1.xml
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\PL.csprojAssemblyReference.cache
+D:\Programs\GitHub\PL\PL\PL\obj\Debug\R.txt
 D:\Programs\GitHub\PL\PL\PL\bin\Debug\PL.dll
 D:\Programs\GitHub\PL\PL\PL\obj\Debug\linksrc\PL.dll.mdb
