@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
 using Android.Graphics;
+using Android.Net;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V7.Widget;
@@ -204,15 +205,15 @@ namespace PL
         }
         //ошибка интернета
         //try
-        //{
+        //{ }
         //catch (System.Net.WebException)
         //{
         //    try
         //    {
         //        Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(Context);
-        //builder.SetTitle("Ошибка!").SetMessage("Отсутствует интернет соединение!").SetCancelable(true);
-        //Android.App.AlertDialog alert = builder.Create();
-        //alert.Show();
+        //        builder.SetTitle("Ошибка!").SetMessage("Отсутствует интернет соединение!").SetCancelable(true);
+        //        Android.App.AlertDialog alert = builder.Create();
+        //        alert.Show();
         //        Thread.ResetAbort();
         //    }
         //    catch { }
@@ -222,11 +223,12 @@ namespace PL
         {
             base.OnCreate(savedInstanceState);
         }
+        
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             View view = inflater.Inflate(Resource.Layout.frag_video, container, false);
-
+            
             YouTube();
             Parsing_link();
 

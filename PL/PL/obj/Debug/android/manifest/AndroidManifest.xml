@@ -4,7 +4,7 @@
   <uses-sdk android:minSdkVersion="19" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:allowBackup="true" android:label="@string/app_name" android:icon="@drawable/notification_fox_50" android:name="android.app.Application" android:debuggable="true">
+  <application android:allowBackup="true" android:label="@string/app_name" android:icon="@drawable/fox_icon" android:name="android.app.Application" android:debuggable="true">
     <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false" />
     <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:exported="true" android:permission="com.google.android.c2dm.permission.SEND">
       <intent-filter>
@@ -13,7 +13,7 @@
         <category android:name="PL.PL" />
       </intent-filter>
     </receiver>
-    <activity android:icon="@drawable/notification_fox_50" android:label="Языки программирования" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5093f3f610c42b9c1e0cabd5fdce82f98.Loading">
+    <activity android:icon="@drawable/fox_icon" android:label="Языки программирования" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5093f3f610c42b9c1e0cabd5fdce82f98.Loading">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

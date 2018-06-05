@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace PL
 {
-    [Activity(MainLauncher = true,Label ="Языки программирования",Icon = "@drawable/Notification_Fox_50", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(MainLauncher = true,Label ="Языки программирования",Icon = "@drawable/Fox_icon", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
     public class Loading : AppCompatActivity, IOnSeekBarChangeListener
     {
         WaveLoadingView waveLodingView;

@@ -2,7 +2,7 @@
 <xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>16.05.2018 9:57:16</xs:documentation>
+    <xs:documentation>30.05.2018 17:36:03</xs:documentation>
   </xs:annotation>
   <xs:attribute name="layout">
     <xs:annotation>
@@ -40,6 +40,8 @@
             <xs:enumeration value="@layout/abc_search_view" />
             <xs:enumeration value="@layout/abc_select_dialog_material" />
             <xs:enumeration value="@layout/cardviewlanguage" />
+            <xs:enumeration value="@layout/csharppart1" />
+            <xs:enumeration value="@layout/csharppart1ch1" />
             <xs:enumeration value="@layout/design_bottom_navigation_item" />
             <xs:enumeration value="@layout/design_bottom_sheet_dialog" />
             <xs:enumeration value="@layout/design_layout_snackbar" />
@@ -145,6 +147,8 @@
             <xs:enumeration value="@layout/abc_search_view" />
             <xs:enumeration value="@layout/abc_select_dialog_material" />
             <xs:enumeration value="@layout/cardviewlanguage" />
+            <xs:enumeration value="@layout/csharppart1" />
+            <xs:enumeration value="@layout/csharppart1ch1" />
             <xs:enumeration value="@layout/design_bottom_navigation_item" />
             <xs:enumeration value="@layout/design_bottom_sheet_dialog" />
             <xs:enumeration value="@layout/design_layout_snackbar" />
@@ -250,6 +254,8 @@
             <xs:enumeration value="@layout/abc_search_view" />
             <xs:enumeration value="@layout/abc_select_dialog_material" />
             <xs:enumeration value="@layout/cardviewlanguage" />
+            <xs:enumeration value="@layout/csharppart1" />
+            <xs:enumeration value="@layout/csharppart1ch1" />
             <xs:enumeration value="@layout/design_bottom_navigation_item" />
             <xs:enumeration value="@layout/design_bottom_sheet_dialog" />
             <xs:enumeration value="@layout/design_layout_snackbar" />
@@ -355,6 +361,8 @@
             <xs:enumeration value="@layout/abc_search_view" />
             <xs:enumeration value="@layout/abc_select_dialog_material" />
             <xs:enumeration value="@layout/cardviewlanguage" />
+            <xs:enumeration value="@layout/csharppart1" />
+            <xs:enumeration value="@layout/csharppart1ch1" />
             <xs:enumeration value="@layout/design_bottom_navigation_item" />
             <xs:enumeration value="@layout/design_bottom_sheet_dialog" />
             <xs:enumeration value="@layout/design_layout_snackbar" />
@@ -484,6 +492,23 @@
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
             <xs:enumeration value="@string/bottom_sheet_behavior" />
             <xs:enumeration value="@string/character_counter_pattern" />
+            <xs:enumeration value="@string/common_google_play_services_enable_button" />
+            <xs:enumeration value="@string/common_google_play_services_enable_text" />
+            <xs:enumeration value="@string/common_google_play_services_enable_title" />
+            <xs:enumeration value="@string/common_google_play_services_install_button" />
+            <xs:enumeration value="@string/common_google_play_services_install_text" />
+            <xs:enumeration value="@string/common_google_play_services_install_title" />
+            <xs:enumeration value="@string/common_google_play_services_notification_ticker" />
+            <xs:enumeration value="@string/common_google_play_services_unknown_issue" />
+            <xs:enumeration value="@string/common_google_play_services_unsupported_text" />
+            <xs:enumeration value="@string/common_google_play_services_update_button" />
+            <xs:enumeration value="@string/common_google_play_services_update_text" />
+            <xs:enumeration value="@string/common_google_play_services_update_title" />
+            <xs:enumeration value="@string/common_google_play_services_updating_text" />
+            <xs:enumeration value="@string/common_google_play_services_wear_update_text" />
+            <xs:enumeration value="@string/common_open_on_phone" />
+            <xs:enumeration value="@string/common_signin_button_text" />
+            <xs:enumeration value="@string/common_signin_button_text_long" />
             <xs:enumeration value="@string/drawer_close" />
             <xs:enumeration value="@string/drawer_open" />
             <xs:enumeration value="@string/password_toggle_content_description" />

@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
-  <TextView
+  <Button
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:text="Books C#"
-    android:gravity="center"/>
-</FrameLayout>
+    android:layout_height="wrap_content"
+    android:text="Раздел 1"
+    android:id="@+id/cshp1"
+/>
+</LinearLayout>

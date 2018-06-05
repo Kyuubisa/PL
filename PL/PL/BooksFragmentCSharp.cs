@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using PL.CSharpPart;
 
 namespace PL
 {
@@ -21,7 +22,14 @@ namespace PL
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            return inflater.Inflate(Resource.Layout.frag_books_csharp, root: null);
+            View view = inflater.Inflate(Resource.Layout.frag_books_csharp, container, false);
+            Fragment fragment = null;
+            var part1 = (Button)view.FindViewById(Resource.Id.cshp1);
+            part1.Click += (s, e) =>
+            { 
+                fragment = new CSharpPart1();
+            };
+            return view;
         }
     }
 }

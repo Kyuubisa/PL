@@ -84,10 +84,10 @@ namespace PL
                     fragment = new BooksFragmentCSharp();
                     drawerLayout.CloseDrawer(Android.Support.V4.View.GravityCompat.Start);
                     break;
-                case Resource.Id.nav_add:
-                    SetContentView(Resource.Layout.CardViewLanguage);
-                    drawerLayout.CloseDrawer(Android.Support.V4.View.GravityCompat.Start);
-                    break;
+                //case Resource.Id.nav_add:
+                //    SetContentView(Resource.Layout.CardViewLanguage);
+                //    drawerLayout.CloseDrawer(Android.Support.V4.View.GravityCompat.Start);
+                //    break;
             }
             if (fragment == null)
                 return;
