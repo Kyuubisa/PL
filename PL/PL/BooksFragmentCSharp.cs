@@ -14,7 +14,7 @@ using Android.Widget;
 namespace PL
 {
     class BooksFragmentCSharp : Fragment
-    { 
+    {
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -24,10 +24,12 @@ namespace PL
         {
             View view = inflater.Inflate(Resource.Layout.frag_books_csharp, container, false);
             Fragment fragment = null;
-            var part1 = (Button)view.FindViewById(Resource.Id.cshp1);
+            Button part1 = (Button)view.FindViewById(Resource.Id.cshp1);
             part1.Click += (s, e) =>
-            { 
-                fragment = new BooksFragmentCPP();
+            {
+                fragment = new CSharpPart1();
+                FragmentManager fm = this.FragmentManager;
+                fm.BeginTransaction().Replace(Resource.Id.fragment_container, fragment).Commit();
             };
             return view;
         }

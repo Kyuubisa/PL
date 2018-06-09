@@ -13,13 +13,19 @@
         <category android:name="PL.PL" />
       </intent-filter>
     </receiver>
-    <activity android:icon="@drawable/fox_icon" android:label="Языки программирования" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md51166d6d38905517f003f759fa818e47e.Loading">
+    <activity android:theme="@style/AppTheme" android:name="md51166d6d38905517f003f759fa818e47e.Authentication_users" />
+    <activity android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md51166d6d38905517f003f759fa818e47e.Loading">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:theme="@style/Theme.DesignDemo" android:name="md51166d6d38905517f003f759fa818e47e.MainActivity" />
+    <activity android:icon="@drawable/fox_icon" android:label="Языки программирования" android:theme="@style/Theme.DesignDemo" android:name="md51166d6d38905517f003f759fa818e47e.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
     <service android:name="md51166d6d38905517f003f759fa818e47e.MyFirebaseIIDService">
       <intent-filter>
         <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
@@ -33,9 +39,6 @@
         <category android:name="mono.android.intent.category.SEPPUKU.PL.PL" />
       </intent-filter>
     </receiver>
-    <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
-    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
-    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
     <provider android:authorities="PL.PL.firebaseinitprovider" android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:initOrder="100" />
     <!-- FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true" -->
@@ -44,6 +47,8 @@
         <action android:name="com.google.firebase.MESSAGING_EVENT" />
       </intent-filter>
     </service>
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
   </application>
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.WAKE_LOCK" />

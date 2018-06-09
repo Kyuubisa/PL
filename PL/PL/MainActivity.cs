@@ -25,7 +25,7 @@ using Android.Util;
 
 namespace PL
 {
-    [Activity(/*MainLauncher = true,*/Theme = "@style/Theme.DesignDemo")]
+    [Activity(MainLauncher = true, Label = "Языки программирования", Icon = "@drawable/Fox_icon", Theme = "@style/Theme.DesignDemo")]
 
     public class MainActivity : AppCompatActivity
     {

@@ -112,6 +112,9 @@ class MonoPackageManager_Resources {
 		"HtmlAgilityPack.dll",
 		"Newtonsoft.Json.dll",
 		"WaveLoadingView.dll",
+		"Xamarin.Android.Arch.Core.Common.dll",
+		"Xamarin.Android.Arch.Lifecycle.Common.dll",
+		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",
@@ -126,12 +129,15 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.v7.CardView.dll",
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
-		"Xamarin.GooglePlayServices.Basement.dll",
-		"Xamarin.GooglePlayServices.Tasks.dll",
-		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.Firebase.Auth.dll",
 		"Xamarin.Firebase.Common.dll",
+		"Xamarin.Firebase.Database.Connection.dll",
+		"Xamarin.Firebase.Database.dll",
 		"Xamarin.Firebase.Iid.dll",
 		"Xamarin.Firebase.Messaging.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Tasks.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

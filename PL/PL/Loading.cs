@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace PL
 {
-    [Activity(MainLauncher = true,Label ="Языки программирования",Icon = "@drawable/Fox_icon", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(MainLauncher = true, Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
     public class Loading : AppCompatActivity, IOnSeekBarChangeListener
     {
         WaveLoadingView waveLodingView;
@@ -43,19 +43,13 @@ namespace PL
             seekBar.SetOnSeekBarChangeListener(this);
             await Task.Run(() =>
             {
-                for (int i = 0; i <= 100; i++)
+                for (progress = 0; progress <= 100; progress++)
                 {
-                    if (progress < 100)
-                    {
-                        progress++;
-                        seekBar.Progress = progress;
-                    }
-
+                    seekBar.Progress = progress;
                     Thread.Sleep(100);
 
                     if (progress == 100)
                     {
-                        seekBar.Progress = progress;
                         StartActivity(typeof(MainActivity));
                     }
                 }
