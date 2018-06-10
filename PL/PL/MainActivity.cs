@@ -52,6 +52,27 @@ namespace PL
             drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             navigationView.NavigationItemSelected += Navigation_NavigationItemSelected;
+
+            Fragment fragment = null;
+            CardViewLanguage cardView = new CardViewLanguage();
+            if (cardView.lang == 1)
+            {
+                fragment = new BooksFragmentCPP();
+                FragmentManager fm = this.FragmentManager;
+                fm.BeginTransaction().Replace(Resource.Id.fragment_container, fragment).Commit();
+            }
+            if (cardView.lang == 2)
+            {
+                fragment = new BooksFragmentCSharp();
+                FragmentManager fm = this.FragmentManager;
+                fm.BeginTransaction().Replace(Resource.Id.fragment_container, fragment).Commit();
+            }
+            else
+            {
+                fragment = new BooksFragmentCPP();
+                FragmentManager fm = this.FragmentManager;
+                fm.BeginTransaction().Replace(Resource.Id.fragment_container, fragment).Commit();
+            }
         }
 
         public override bool OnOptionsItemSelected(IMenuItem item) // Выбор элементов бокового меню.
@@ -114,7 +135,7 @@ namespace PL
                     fragment = new VideoFragment();
                     break;
                 case Resource.Id.settings:
-                    fragment = new SettingsFragment();
+                    StartActivity(typeof(SettingsFragment));
                     break;
             }
             if (fragment == null)

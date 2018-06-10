@@ -1,20 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
-using Android.Graphics;
-using Android.Net;
 using Android.OS;
-using Android.Runtime;
 using Android.Support.V7.Widget;
-using Android.Text;
-using Android.Util;
 using Android.Views;
 using Android.Widget;
 using FFImageLoading;
@@ -201,11 +192,11 @@ namespace PL
             {
                 try
                 {
-                    Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(Context);
-                    builder.SetTitle("Ошибка!").SetMessage("Отсутствует интернет соединение!").SetCancelable(true);
-                    Android.App.AlertDialog alert = builder.Create();
-                    alert.Show();
-                   
+                    Android.Support.V7.App.AlertDialog.Builder builder = new Android.Support.V7.App.AlertDialog.Builder(Context);
+                    builder
+                    .SetTitle("Ошибка")
+                    .SetMessage("Отсутствует интернет соединение.");
+                    builder.Show();
                 }
                 catch { }
 

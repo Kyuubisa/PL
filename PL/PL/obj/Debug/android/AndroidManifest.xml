@@ -14,6 +14,10 @@
       </intent-filter>
     </receiver>
     <activity android:theme="@style/AppTheme" android:name="md51166d6d38905517f003f759fa818e47e.Authentication_users" />
+    <activity android:theme="@style/Theme.DesignDemo" android:name="md51166d6d38905517f003f759fa818e47e.CardViewLanguage" />
+    <activity android:theme="@style/AppTheme" android:name="md51166d6d38905517f003f759fa818e47e.SettingsFragment" />
+    <activity android:label="ForgotPassword" android:theme="@style/AppTheme" android:name="md51166d6d38905517f003f759fa818e47e.ForgotPassword" />
+    <activity android:label="SingUp" android:theme="@style/AppTheme" android:name="md51166d6d38905517f003f759fa818e47e.SingUp" />
     <activity android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md51166d6d38905517f003f759fa818e47e.Loading">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -31,6 +35,7 @@
         <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
       </intent-filter>
     </service>
+    <activity android:theme="@style/Theme.DesignDemo" android:name="md51166d6d38905517f003f759fa818e47e.DashBoard" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="PL.PL.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
@@ -47,6 +52,8 @@
         <action android:name="com.google.firebase.MESSAGING_EVENT" />
       </intent-filter>
     </service>
+    <!-- FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true" -->
     <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
   </application>

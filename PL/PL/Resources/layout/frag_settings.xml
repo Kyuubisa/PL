@@ -1,7 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-              android:orientation="vertical"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent">
+  android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <ImageView
+      android:id="@+id/icon_authentication"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:background="@drawable/Fox_icon"
+      android:layout_width="100dp"
+      android:layout_height="100dp" />
+
+  <android.support.design.widget.TextInputLayout
+    android:layout_below="@id/icon_authentication"
+      android:id="@+id/dashbord_input_newpassword"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/dashboard_newpassword"
+        android:hint="Введите новый пароль"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  </android.support.design.widget.TextInputLayout>
+
+
+  <Button
+      android:layout_below="@id/dashbord_input_newpassword"
+      android:id="@+id/dashbord_btn_change_pass"
+      android:text="Изменить пароль"
+      android:background="#263238"
+      style="@style/Widget.AppCompat.Button.Colored"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <Button
+      android:layout_below="@id/dashbord_btn_change_pass"
+      android:id="@+id/dashbord_btn_logout"
+      android:text="Выйти из аккаунта"
+      android:background="#263238"
+      style="@style/Widget.AppCompat.Button.Colored"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
 </RelativeLayout>

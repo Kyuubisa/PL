@@ -17,20 +17,20 @@ namespace PL.Books
 {
     class Books
     {
-        FirebaseDatabase database;
-        DatabaseReference reference;
-        DataSnapshot dataSnapshot;
-        public List<HashMap> Book = new List<HashMap>();
+        //FirebaseDatabase database;
+        //DatabaseReference reference;
+        //DataSnapshot dataSnapshot;
+        //public List<HashMap> Book = new List<HashMap>();
         
-        public void OnDataChange(DataSnapshot snapshot)
-        {
-            var children = snapshot.Child("CPP")?.Children?.ToEnumerable<DataSnapshot>();
-            List<HashMap> list = new List<HashMap>();
+        //public void OnDataChange(DataSnapshot snapshot)
+        //{
+        //    var children = snapshot.Child("CPP")?.Children?.ToEnumerable<DataSnapshot>();
+        //    List<HashMap> list = new List<HashMap>();
 
-            foreach (DataSnapshot s in children)
-            {
-                Book.Add((HashMap)s.Value);
-            }
-        }
+        //    foreach (DataSnapshot s in children)
+        //    {
+        //        Book.Add((HashMap)s.Value);
+        //    }
+        //}
     }
 }
